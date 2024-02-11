@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+}
+
+.header-layout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
+  width: 100%;
+  font-size: 1.5rem;
+  height: auto;
+}
+
+.header-list {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  color: #2d2e32;
+  font-weight: 600;
+  padding-right: 30px;
+  cursor: pointer;
+}
+
+* {
+    scrollbar-color: #8e8e8e #fff;
+    scrollbar-width: thin;
+}
+
+.logo {
+  color: #2d2e32;
+  cursor: pointer;
+  padding-left: 40px;
+}
+
+li:hover {
+    color: rgb(83, 83, 243);
+}
