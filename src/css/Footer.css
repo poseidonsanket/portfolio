@@ -2,6 +2,7 @@
   background-color: #2d2e32;
   width: 100%;
   color: #fff;
+  bottom: 0;
 }
 
 .footer-s1 {
@@ -40,6 +41,7 @@ a {
   justify-content: center;
   align-items: center;
   padding-bottom: 20px;
+  margin-bottom: 0px;
   margin-top: -10px;
   font-size: 1.5rem;
   font-weight: 500px;

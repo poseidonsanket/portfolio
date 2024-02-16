@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #fff;
 }
 
 nav {
@@ -55,7 +56,6 @@ nav .hamburger-menu {
   list-style: none;
 }
 
-
 @media (max-width: 800px) {
   nav .header-list {
     display: none;
@@ -88,7 +88,7 @@ nav .hamburger-menu {
   .close-menu {
     right: -100% !important;
   }
-  
+
   .open-menu {
     right: 0 !important;
   }

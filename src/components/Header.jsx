@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../css/Header.css";
 
+
 const Header = () => {
   const [openMenu, setOpenMenu] = useState(null);
 
@@ -28,7 +29,6 @@ const Header = () => {
           <li>Home</li>
           <li>About</li>
           <li>Projects</li>
-          <li>Resume</li>
           <li>Contact</li>
         </ul>
       </nav>
@@ -39,7 +39,6 @@ const Header = () => {
           <li>Home</li>
           <li>About</li>
           <li>Projects</li>
-          <li>Resume</li>
           <li>Contact</li>
         </ul>
         <span className="cross" onClick={closeMenu}>
