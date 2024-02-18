@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/Hero.css";
+import heroImg from "../img/hero.png";
 
 const Hero = () => {
   return (
@@ -11,6 +12,9 @@ const Hero = () => {
             Hi, I'm Sanket Dadali. A passionate MERN STACK Developer based in
             Pune, Maharashtra.
           </p>
+          <a href="https://drive.google.com/file/d/1x0xnYgnQZwkgUm5ZXM0nFRVHLpnSf2Pd/view?usp=sharing" target="_blank">
+            <div className="resume-btn">Click Me For Resume</div>
+          </a>
           <div className="hero-socials">
             <a
               className="footer-linkedin"
@@ -58,10 +62,7 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <img
-          className="hero-banner"
-          src="https://imgs.search.brave.com/858OGY8elGAvuJnaKAWukeb7AVHF97tDf2FF0BiAASE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/ZHJpYmJibGUuY29t/L3VzZXJzLzI0MDEx/NDEvc2NyZWVuc2hv/dHMvNTQ4Nzk4Mi9t/ZWRpYS8wZWQyOGI3/MzRhNDJkMDZhOTZj/YzU3ZjVkNDc4NjI1/Yy5naWY_cmVzaXpl/PTQwMHgzMDAmdmVy/dGljYWw9Y2VudGVy.gif"
-        ></img>
+        <img className="hero-banner" src={heroImg}></img>
       </div>
     </div>
   );
