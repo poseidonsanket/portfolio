@@ -6,10 +6,10 @@ import About from "./components/About";
 const App = () => {
   return (
     <div>
-      <Header/>
-      <Hero/>
+      <Header />
+      <Hero />
       <About/>
-      <Footer/>
+      <Footer />
     </div>
   );
 };
