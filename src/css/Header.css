@@ -65,8 +65,8 @@ nav .hamburger-menu {
     background-color: #fff;
     display: flex;
     height: 100vh;
-    justify-content: space-between;
-    position: fixed;
+    justify-content: space-around;
+    position: absolute;
     top: 0;
     transition: all 0.3s ease-in-out;
     width: 100%;

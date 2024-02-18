@@ -4,6 +4,7 @@
   justify-content: center;
   gap: 5rem;
   align-items: center;
+  margin-bottom: 10rem;
 }
 
 .hero-section-1 h1 {
@@ -56,8 +57,8 @@
   transition: color 0.3s ease;
 }
 
-a { 
- text-decoration: none;
+a {
+  text-decoration: none;
 }
 
 .hero-linkedin:hover {
@@ -82,7 +83,12 @@ a {
     align-items: center;
     margin-bottom: 11rem;
     text-align: justify;
-    letter-spacing: 1px;
+    letter-spacing: 0.3px;
+  }
+
+  .hero-section-1 h1 {
+    letter-spacing: 0px;
+    text-align: justify;
   }
 
   .hero-socials {
@@ -92,7 +98,7 @@ a {
     align-items: center;
   }
 
-  .resume-btn { 
+  .resume-btn {
     margin: auto;
   }
 }
