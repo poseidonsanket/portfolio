@@ -2,7 +2,7 @@
   margin-top: 10rem;
   display: flex;
   justify-content: center;
-  gap: 5rem;
+  gap: 4rem;
   align-items: center;
   margin-bottom: 10rem;
 }
@@ -21,6 +21,10 @@
 .hero-text {
   display: flex;
   flex-direction: column;
+}
+
+.hero-text h1 {
+  margin: 0;
 }
 .sub-text {
   font-size: 1.5rem;
