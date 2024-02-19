@@ -23,8 +23,8 @@ const Hero = () => {
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="30"
-                height="30"
+                width="45"
+                height="45"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
@@ -47,8 +47,8 @@ const Hero = () => {
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="30"
-                height="30"
+                width="45"
+                height="45"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
