@@ -1,6 +1,31 @@
-.tech-heading{
-    display: flex;
-    justify-content: center;
-    color: #2d2e32;
-    font-size: 2.5rem;
+.tech-heading {
+  display: flex;
+  justify-content: center;
+  color: #2d2e32;
+  font-size: 2.5rem;
+}
+
+.tech-accordian-main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.tech-accordian {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: white solid 1px;
+  border-radius: 6px;
+  padding: 10px;
+  background-color: #4e4e4e;
+  color: white;
+}
+
+.tech-accordian:hover {
+    background-color: rgb(44, 43, 43);
+}
+
+.tech-accordian span {
+  font-size: 1.5rem;
 }
