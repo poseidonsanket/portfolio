@@ -5,7 +5,7 @@ import TechStack from "./TechStack";
 
 const About = () => {
   return (
-    <div id="about-section">
+    <div id="section2">
       <div className="about-main">
         <div className="about-title">
           <h2>About Me</h2>
@@ -101,7 +101,7 @@ const About = () => {
           <img src={aboutImg} />
         </div>
       </div>
-      <TechStack/>
+      <TechStack />
     </div>
   );
 };

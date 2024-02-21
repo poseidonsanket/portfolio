@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import CoreLanguages from "./CoreLanguages";
 import FrontEnd from "./FrontEnd";
+import Database from "./Database";
 import "../css/TechStack.css";
 
 const TechStack = () => {
@@ -47,7 +48,7 @@ const TechStack = () => {
             <span>DataBases</span>
             <span style={{ fontSize: "1.7rem" }}>{database ? "-" : "+"}</span>
           </div>
-          {database && <p>Still Learning 🥲</p>}
+          {database && <Database/>}
         </div>
       </div>
     </div>

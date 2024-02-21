@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../css/Header.css";
-
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Header = () => {
   const [openMenu, setOpenMenu] = useState(null);
@@ -13,7 +13,7 @@ const Header = () => {
     console.log(openMenu);
     setOpenMenu((openMenu) => false);
   };
-
+  
   return (
     <div>
       <nav>
@@ -26,10 +26,54 @@ const Header = () => {
           </svg>
         </div>
         <ul className="header-list">
-          <li>Home</li>
-          <li>About</li>
-          <li>Projects</li>
-          <li>Contact</li>
+          <li>
+            <Link
+              activeClass="active"
+              to="section1"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="section2"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              About
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="section3"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Projects
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="section4"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Contact
+            </Link>
+          </li>
         </ul>
       </nav>
       <div
