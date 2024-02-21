@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import CoreLanguages from "./CoreLanguages";
+import FrontEnd from "./FrontEnd";
 import "../css/TechStack.css";
 
 const TechStack = () => {
@@ -27,7 +28,7 @@ const TechStack = () => {
             <span>Front-End</span>
             <span style={{ fontSize: "1.7rem" }}>{frontEnd ? "-" : "+"}</span>
           </div>
-          {frontEnd && <p>Still Learning 🥲</p>}
+          {frontEnd && <FrontEnd/>}
         </div>
 
         <div>

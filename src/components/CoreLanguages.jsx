@@ -112,7 +112,6 @@ const CoreLanguages = () => {
             ></path>
           </svg>
         </div>
-        
       </div>
     </div>
   );
