@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import CoreLanguages from "./CoreLanguages";
 import "../css/TechStack.css";
 
 const TechStack = () => {
@@ -15,7 +16,7 @@ const TechStack = () => {
             <span>Core Languages</span>
             <span style={{ fontSize: "1.7rem" }}>{core ? "-" : "+"}</span>
           </div>
-          {core && <p>Still Learning 🥲</p>}
+          {core && <CoreLanguages/>} 
         </div>
 
         <div>
