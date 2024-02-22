@@ -109,7 +109,7 @@ const Header = () => {
           <li>Projects</li>
           <li>Contact</li>
         </ul>
-        <span className="cross" onClick={closeMenu}>
+        <div className="cross" onClick={closeMenu}>
           <svg
             className="cross"
             xmlns="http://www.w3.org/2000/svg"
@@ -126,7 +126,7 @@ const Header = () => {
             <path d="M18 6l-12 12"></path>
             <path d="M6 6l12 12"></path>
           </svg>
-        </span>
+        </div>
       </div>
     </div>
   );
