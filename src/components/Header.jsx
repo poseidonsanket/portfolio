@@ -13,9 +13,9 @@ const Header = () => {
     console.log(openMenu);
     setOpenMenu((openMenu) => false);
   };
-  
+
   return (
-    <div>
+    <div id="header">
       <nav>
         <h3 className="logo">Sanket.dev</h3>
         <div className="hamburger-menu" onClick={toggleMenu}>
@@ -80,8 +80,32 @@ const Header = () => {
         className={`off-screen-menu ${openMenu ? "open-menu" : "close-menu"}`}
       >
         <ul className="off-screen-list">
-          <li>Home</li>
-          <li>About</li>
+          <li>
+            <Link
+              activeClass="active"
+              to="section1"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              onClick={closeMenu}
+            >
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="section2"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              onClick={closeMenu}
+            >
+              About
+            </Link>
+          </li>
           <li>Projects</li>
           <li>Contact</li>
         </ul>
