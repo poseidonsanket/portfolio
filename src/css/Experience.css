@@ -1,0 +1,87 @@
+.experience-heading {
+  display: flex;
+  justify-content: center;
+  color: #2d2e32;
+  font-size: 2.5rem;
+  margin: 2rem;
+}
+.experience-main {
+  display: flex;
+}
+.experience-img {
+  margin-left: 4rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  margin-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.experience-elite {
+  border-radius: 50px;
+  width: max-content;
+  padding: 5px;
+  box-shadow: 4px 3px 20px -2px grey;
+}
+
+.experience-gfg {
+  border-radius: 50px;
+  width: max-content;
+  padding: 5px;
+  box-shadow: 4px 3px 20px -2px grey;
+}
+
+.experience-elite img {
+  width: 70px;
+  height: 70px;
+}
+
+.experience-gfg img {
+  width: 70px;
+  height: 70px;
+}
+
+.experience-dot {
+  background-color: #7d8195;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  z-index: 100;
+}
+
+.experience-bullets {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1.5rem;
+}
+
+.experience-line {
+  padding-left: 20px;
+  border-left: #7d8195 solid 3px;
+  height: 9rem;
+  margin-left: 1.1rem;
+}
+
+.experience-card-1 {
+    box-shadow: 4px 3px 20px -2px grey;
+    border-radius: 10px;
+    border: #2d2e32 solid 1px;
+    width: 300px;
+}
+
+.experience-card-2 {
+    box-shadow: 4px 3px 20px -2px grey;
+    border-radius: 10px;
+    border: #2d2e32 solid 1px;
+    width: 300px;
+}
+
+.experience-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6.5rem;
+}

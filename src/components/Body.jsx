@@ -4,6 +4,7 @@ import About from "./About";
 import { animateScroll as scroll } from "react-scroll";
 import { FaAngleUp } from "react-icons/fa";
 import "../css/Body.css";
+import Experience from "./Experience";
 
 const Body = () => {
   const [showTopBtn, setShowTopBtn] = useState(false);
@@ -33,6 +34,7 @@ const Body = () => {
             <FaAngleUp className="icon-position icon-style" onClick={goToTop} />
           )}
         </div>
+        <Experience/>
       </div>
     </div>
   );
