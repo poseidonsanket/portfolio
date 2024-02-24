@@ -4,7 +4,7 @@ import "../css/CoreLanguages.css";
 const Database = () => {
   return (
     <div className="main">
-      <div>
+      <div title="MongoDB" className="logos">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           x="0px"
@@ -32,7 +32,7 @@ const Database = () => {
           ></path>
         </svg>
       </div>
-      <div>
+      <div title="MySQL" className="logos">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           x="0px"
@@ -71,7 +71,7 @@ const Database = () => {
           ></path>
         </svg>
       </div>
-      <div>
+      <div title="PostgreSQl" className="logos">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           x="0px"

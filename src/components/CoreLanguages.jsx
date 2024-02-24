@@ -5,7 +5,7 @@ const CoreLanguages = () => {
   return (
     <div>
       <div className="main">
-        <div>
+        <div title="C++" className="logos">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             x="0px"
@@ -52,7 +52,7 @@ const CoreLanguages = () => {
             ></path>
           </svg>
         </div>
-        <div>
+        <div title="JAVA" className="logos">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             x="0px"
@@ -93,7 +93,7 @@ const CoreLanguages = () => {
             </g>
           </svg>
         </div>
-        <div>
+        <div title="Python" className="logos">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             x="0px"

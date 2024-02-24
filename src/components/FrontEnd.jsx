@@ -4,7 +4,7 @@ import "../css/CoreLanguages.css";
 const FrontEnd = () => {
   return (
     <div className="main">
-      <div>
+      <div title="HTML5" className="logos">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           x="0px"
@@ -25,7 +25,7 @@ const FrontEnd = () => {
           ></path>
         </svg>
       </div>
-      <div>
+      <div title="CSS3" className="logos">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           x="0px"
@@ -46,7 +46,7 @@ const FrontEnd = () => {
           ></path>
         </svg>
       </div>
-      <div>
+      <div title="Javascript" className="logos">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           x="0px"
@@ -62,7 +62,7 @@ const FrontEnd = () => {
           ></path>
         </svg>
       </div>
-      <div>
+      <div title="Tailwind CSS" className="logos">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           x="0px"
@@ -77,7 +77,7 @@ const FrontEnd = () => {
           ></path>
         </svg>
       </div>
-      <div>
+      <div title="BootStrap" className="logos">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           x="0px"
@@ -96,7 +96,7 @@ const FrontEnd = () => {
           ></path>
         </svg>
       </div>
-      <div>
+      <div title="React JS" className="logos">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           x="0px"
@@ -125,7 +125,7 @@ const FrontEnd = () => {
           </g>
         </svg>
       </div>
-      <div>
+      <div title="Redux" className="logos">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           x="0px"
