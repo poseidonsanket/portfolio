@@ -5,7 +5,7 @@ import gfgImg from "../img/gfg.svg";
 
 const Experience = () => {
   return (
-    <div>
+    <div id="section3">
       <h1 className="experience-heading">Experience</h1>
       <div className="experience-main">
         <div className="experience-img">
@@ -54,7 +54,7 @@ const Experience = () => {
               </div>
             </div>
             <div className="experience-card-1-s-2">
-              Contributed and Published 5 Articles on Database Topics like PostgreSQL And MariaDB. Accumulated 300+ views on the Articles.
+              Contributed and Published 5 Articles on Database Topics like PostgreSQL And MariaDB.OverAll Accumulated 300+ views on the Articles.
             </div>
             </div>
           </div>

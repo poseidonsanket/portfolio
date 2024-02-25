@@ -59,13 +59,25 @@ const Header = () => {
               offset={-70}
               duration={500}
             >
-              Projects
+              Experience
             </Link>
           </li>
           <li>
             <Link
               activeClass="active"
               to="section4"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Projects
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="section5"
               spy={true}
               smooth={true}
               offset={-70}
@@ -104,6 +116,18 @@ const Header = () => {
               onClick={closeMenu}
             >
               About
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="section3"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Experience
             </Link>
           </li>
           <li>Projects</li>
