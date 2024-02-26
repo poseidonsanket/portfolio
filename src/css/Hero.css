@@ -1,5 +1,7 @@
 .hero-section-1 {
   margin-top: 10rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
   display: flex;
   justify-content: center;
   flex-wrap: wrap-reverse;
@@ -113,3 +115,4 @@ a {
     margin: auto;
   }
 }
+

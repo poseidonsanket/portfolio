@@ -20,7 +20,7 @@ const About = () => {
             <div className="about-logos-main">
               <div
                 style={{
-                  fontSize: "20px",
+                  fontSize: "23px",
                   color: "#2d2e32",
                   fontWeight: "bold",
                 }}
