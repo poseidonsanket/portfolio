@@ -39,3 +39,12 @@
     transform: translateY(0px);
   }
 }
+
+@media (max-width: 800px){
+  .icon-position{
+    position: fixed;
+    bottom: 40px;
+    right: 25px;
+    z-index: 20;
+  }
+}

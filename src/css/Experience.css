@@ -193,24 +193,31 @@
   cursor: pointer;
 }
 
+.mobile-view {
+  display: none;
+}
+
 @media (max-width: 800px) {
-  .experience-card-1 {
-    width: auto;
+  .experience-main {
+    display: none;
   }
-
-  .experience-card-2 {
-    width: auto;
-  }
-
-  .experience-cards {
+  .mobile-view {
+    display: flex;
+    flex-direction: column;
     gap: 2rem;
   }
 
-  .experience-main {
+  .mobile-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .experience-card-1 {
+    width: auto;
     margin: 1rem;
   }
-
-  .experiance-img {
-    margin-left: 20px;
+  .experience-card-2 {
+    width: auto;
+    margin: 1rem;
   }
 }
