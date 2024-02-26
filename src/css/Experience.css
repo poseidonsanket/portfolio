@@ -121,7 +121,7 @@
   box-shadow: 4px 3px 20px -2px rgb(59, 103, 126);
   border-radius: 10px;
   border: #2d2e32 solid 1px;
-  width: 95rem;
+  width: auto;
   transition: transform 0.3s ease-out;
 }
 
@@ -197,7 +197,7 @@
   display: none;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
   .experience-main {
     display: none;
   }

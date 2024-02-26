@@ -8,7 +8,7 @@ const Contact = () => {
         <h1>Contact</h1>
       </div>
       <div className="contact-s-1">
-        <p style={{ color: "#2d2e32", fontSize: "2rem" }}>
+        <p className="contact-heading-2">
           Don't be shy! Hit me up! 👇
         </p>
       </div>

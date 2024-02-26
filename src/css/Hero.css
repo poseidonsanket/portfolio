@@ -2,6 +2,7 @@
   margin-top: 10rem;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap-reverse;
   gap: 4rem;
   align-items: center;
   margin-bottom: 10rem;
@@ -82,7 +83,7 @@ a {
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
-    text-align: center;
+    text-align: justify;
     gap: 5rem;
     align-items: center;
     margin-bottom: 11rem;
@@ -91,8 +92,8 @@ a {
   }
 
   .hero-banner {
-    width: 420px;
-    height: 400px;
+    max-width: 100%;
+    height: auto;
     border-radius: 10px;
   }
 

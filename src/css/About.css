@@ -27,7 +27,7 @@
   width: 800px;
 }
 
-.about-main { 
+.about-main {
   margin-bottom: 5rem;
 }
 
@@ -48,7 +48,6 @@
   margin-top: 1rem;
 }
 
-
 .leetcode:hover {
   cursor: pointer;
   transform: scale(1.2);
@@ -64,27 +63,30 @@
   transform: scale(1.2);
 }
 
-@media (max-width:800px){
-    .about-info {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-size: 1.5rem;
-        text-align: center;
-        text-align: justify;
-        letter-spacing: -0.2px;
-    }
-    .about-info img {
-        margin-top: -150px;
-        height: 400px;
-        width: 400px;
-    }
+@media (max-width: 800px) {
+  .about-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    text-align: center;
+    text-align: justify;
+    letter-spacing: -0.2px;
+  }
 
-    .about-logos-main {
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-    }
-      
+  
+  .about-info img {
+    margin-top: -150px;
+    height: 400px;
+    width: 350px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .about-logos-main {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
 }
