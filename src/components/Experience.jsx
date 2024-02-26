@@ -8,20 +8,15 @@ const Experience = () => {
     <div id="section3">
       <h1 className="experience-heading">Experience</h1>
       <div className="experience-main">
-        <div className="experience-img">
+        <div className="experience-section-1">
           <div className="experience-elite">
             <img src={eliteImg} />
           </div>
-          <div className="experience-gfg">
-            <img src={gfgImg} />
+          <div className="experience-card-stepper">
+            <div className="experience-dot"></div>
+            <div className="experience-line"></div>
           </div>
-        </div>
-        <div className="experience-bullets">
-          <div className="experience-dot"></div>
-          <div className="experience-line"></div>
-          <div className="experience-dot"></div>
-        </div>
-        <div className="experience-cards">
+
           <div className="experience-card-1">
             <div className="experience-card-1-s-1">
               <div className="experience-card-1-s-1-1">
@@ -42,6 +37,14 @@ const Experience = () => {
               Hosting.Learned about Cloud Hosting,VPS Hosting,Dedicated
               Hosting,WordPress Hosting
             </div>
+          </div>
+        </div>
+        <div className="experience-section-2">
+          <div className="experience-gfg">
+            <img src={gfgImg} />
+          </div>
+          <div className="experience-card-stepper">
+            <div className="experience-dot"></div>
           </div>
           <div className="experience-card-2">
             <div>
@@ -72,7 +75,6 @@ const Experience = () => {
             <img src={eliteImg} />
           </div>
         </div>
-
         <div className="experience-card-1">
           <div className="experience-card-1-s-1">
             <div className="experience-card-1-s-1-1">
@@ -98,7 +100,6 @@ const Experience = () => {
             <img src={gfgImg} />
           </div>
         </div>
-
         <div className="experience-card-2">
           <div>
             <div className="experience-card-1-s-1">
