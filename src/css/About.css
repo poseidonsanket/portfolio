@@ -22,10 +22,10 @@
   flex-wrap: wrap;
 }
 
-.about-info img {
+.about-img img{
   margin-top: 20px;
-  height: 500px;
-  width: 500px;
+  height: 600px;
+  width: 800px;
 }
 
 .about-main {
@@ -71,15 +71,11 @@
     justify-content: center;
     align-items: center;
     font-size: 1.5rem;
-    text-align: center;
-    text-align: justify;
-    letter-spacing: -0.2px;
   }
 
-  .about-info img {
-    margin-top: -150px;
-    height: 400px;
-    width: 350px;
+  .about-img img{
+    height: 300px;
+    width: 100%;
     margin-left: 1rem;
     margin-right: 1rem;
   }
@@ -89,4 +85,4 @@
     flex-direction: column;
     gap: 1rem;
   }
-}
+} 

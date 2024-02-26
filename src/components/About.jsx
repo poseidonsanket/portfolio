@@ -98,7 +98,9 @@ const About = () => {
               </div>
             </div>
           </div>
-          <img src={aboutImg} />
+          <div className="about-img">
+            <img src={aboutImg} />
+          </div>
         </div>
       </div>
       <TechStack />
