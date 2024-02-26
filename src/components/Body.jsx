@@ -5,6 +5,7 @@ import { FaAngleUp } from "react-icons/fa";
 import "../css/Body.css";
 import Experience from "./Experience";
 import Projects from "./Projects";
+import Contact from "./Contact";
 
 const Body = () => {
   const [showTopBtn, setShowTopBtn] = useState(false);
@@ -36,6 +37,7 @@ const Body = () => {
         </div>
         <Experience />
         <Projects />
+        <Contact/>
       </div>
     </div>
   );
