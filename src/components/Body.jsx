@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import Hero from "./Hero";
 import About from "./About";
-import { animateScroll as scroll } from "react-scroll";
 import { FaAngleUp } from "react-icons/fa";
 import "../css/Body.css";
 import Experience from "./Experience";
+import Projects from "./Projects";
 
 const Body = () => {
   const [showTopBtn, setShowTopBtn] = useState(false);
@@ -34,7 +34,8 @@ const Body = () => {
             <FaAngleUp className="icon-position icon-style" onClick={goToTop} />
           )}
         </div>
-        <Experience/>
+        <Experience />
+        <Projects />
       </div>
     </div>
   );

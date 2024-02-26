@@ -26,7 +26,7 @@ const Experience = () => {
             <div className="experience-card-1-s-1">
               <div className="experience-card-1-s-1-1">
                 <h3>Python-Django Intern</h3>
-                <a href="https://www.elitesoftwares.co.in/"><p>Elite Softwares</p></a>
+                <a href="https://www.elitesoftwares.co.in/" target="_blank"><p>Elite Softwares</p></a>
               </div>
               <div className="experience-card-1-s-1-2">
                 <p>Oct 2022 – Jan 2023</p>
@@ -46,7 +46,7 @@ const Experience = () => {
             <div className="experience-card-1-s-1">
               <div className="experience-card-1-s-1-1">
                 <h3>Technical Content Writer</h3>
-                <a href="https://www.geeksforgeeks.org/"><p>GeeksForGeeks</p></a>
+                <a href="https://www.geeksforgeeks.org/" target="_blank"><p>GeeksForGeeks</p></a>
               </div>
               <div className="experience-card-1-s-1-2">
                 <p>Jan 2024 – Present</p>

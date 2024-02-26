@@ -126,12 +126,37 @@ const Header = () => {
               smooth={true}
               offset={-70}
               duration={500}
+              onClick={closeMenu}
             >
               Experience
             </Link>
           </li>
-          <li>Projects</li>
-          <li>Contact</li>
+          <li>
+            <Link
+              activeClass="active"
+              to="section4"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              onClick={closeMenu}
+            >
+              Projects
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="section5"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              onClick={closeMenu}
+            >
+              Contact
+            </Link>
+          </li>
         </ul>
         <div className="cross" onClick={closeMenu}>
           <svg
