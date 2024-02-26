@@ -14,16 +14,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 15rem;
+  gap: 5rem;
   font-size: 2rem;
   margin-left: 100px;
   margin-right: 100px;
+  text-align: left;
+  flex-wrap: wrap;
 }
 
 .about-info img {
   margin-top: 20px;
   height: 500px;
-  width: 800px;
+  width: 500px;
 }
 
 .about-main {
