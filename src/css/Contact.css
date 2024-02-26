@@ -32,7 +32,7 @@
   align-items: center;
   background-color: #fff;
   border-radius: 50%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.250);
   color: #147efb;
   display: flex;
   height: 5rem;
@@ -44,7 +44,7 @@
   align-items: center;
   background-color: #fff;
   border-radius: 50%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.250);
   color: #147efb;
   display: flex;
   height: 5rem;
@@ -72,6 +72,11 @@
 
 .contact-p {
   margin: 0;
+  font-size: 1.2rem;
+}
+
+.contact__info a{
+  font-size: 1.2rem;
 }
 
 .contact__info {
