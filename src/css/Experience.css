@@ -250,3 +250,28 @@
     margin: 1rem;
   }
 }
+
+@media (max-width: 1200px) {
+  .experience-main {
+    display: none;
+  }
+  .mobile-view {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .mobile-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .experience-card-1 {
+    width: auto;
+    margin: 1rem;
+  }
+  .experience-card-2 {
+    width: auto;
+    margin: 1rem;
+  }
+}

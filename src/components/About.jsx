@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/About.css";
-import aboutImg from "../img/about.png";
 import TechStack from "./TechStack";
+import about from "../img/Firmware.gif";
 
 const About = () => {
   return (
@@ -99,7 +99,7 @@ const About = () => {
             </div>
           </div>
           <div className="about-img">
-            <img src={aboutImg} />
+            <img src={about} />
           </div>
         </div>
       </div>
