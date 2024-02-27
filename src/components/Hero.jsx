@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/Hero.css";
 import heroImg from "../img/hero.gif";
+import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
   return (
@@ -9,10 +10,25 @@ const Hero = () => {
         <div className="hero-text">
           <h1>MERN Full Stack Developer 👋</h1>
           <p className="sub-text">
-            Hi, I'm Sanket Dadali. A passionate MERN STACK Developer based in
-            Pune, Maharashtra.
+            <TypeAnimation
+              sequence={[
+                "Hi, I'm Sanket Dadali. A passionate MERN Stack Developer",
+                1000, 
+                "Hi, I'm Sanket Dadali. A passionate Technical Content Writer",
+                1000,
+                "Hi, I'm Sanket Dadali. A passionate Open Source Enthusiat",
+                1000,
+              ]}
+              wrapper="span"
+              speed={50}
+              style={{ fontSize: "2.2rem", display: "inline-block" }}
+              repeat={Infinity}
+            />
           </p>
-          <a href="https://drive.google.com/file/d/1x0xnYgnQZwkgUm5ZXM0nFRVHLpnSf2Pd/view?usp=sharing" target="_blank">
+          <a
+            href="https://drive.google.com/file/d/1x0xnYgnQZwkgUm5ZXM0nFRVHLpnSf2Pd/view?usp=sharing"
+            target="_blank"
+          >
             <div className="resume-btn">Click Me For Resume</div>
           </a>
           <div className="hero-socials">
