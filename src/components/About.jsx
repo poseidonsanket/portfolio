@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/About.css";
 import TechStack from "./TechStack";
-import about from "../img/Firmware.gif";
+import about from "../img/about-img.gif";
 
 const About = () => {
   return (
