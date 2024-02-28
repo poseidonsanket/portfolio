@@ -266,9 +266,10 @@ input {
   background: none;
   border: none;
   color: #ffff;
-  font-size: 14px;
+  font-size: 16px;
   cursor: pointer;
   outline: none;
+  padding-top: 10px;
 }
 
 .app-form-button:hover {

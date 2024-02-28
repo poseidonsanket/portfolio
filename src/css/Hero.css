@@ -1,12 +1,12 @@
 .hero-section-1 {
-  margin-top: 10rem;
+  margin-top: 8rem;
   margin-left: 2rem;
   margin-right: 2rem;
   display: flex;
   justify-content: center;
   gap: 3rem;
   align-items: center;
-  margin-bottom: 10rem;
+  margin-bottom: 8rem;
 }
 
 .hero-section-1 h1 {
