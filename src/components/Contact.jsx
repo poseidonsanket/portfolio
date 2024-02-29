@@ -1,7 +1,26 @@
-import React from "react";
+import React, { useRef } from "react";
 import "../css/Contact.css";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm("service_lrteb3c", "template_da19ncc", form.current, {
+        publicKey: "-4qBl5d4gcqRcLrE8",
+      })
+      .then(
+        () => {
+          console.log("SUCCESS!");
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+        }
+      );
+  };
   return (
     <div id="section5">
       <div className="contact-heading">
@@ -84,22 +103,45 @@ const Contact = () => {
                   <span>CONTACT</span>
                 </div>
               </div>
-              <div class="screen-body-item">
-                <div class="app-form">
-                  <div class="app-form-group">
-                    <input class="app-form-control" placeholder="NAME" />
+              <form
+                ref={form}
+                onSubmit={sendEmail}
+                className="screen-body-item"
+              >
+                <div className="app-form">
+                  <div className="app-form-group">
+                    <input
+                      className="app-form-control"
+                      type="text"
+                      id="user_name"
+                      name="from_name"
+                      placeholder="NAME"
+                    />
                   </div>
-                  <div class="app-form-group">
-                    <input class="app-form-control" placeholder="EMAIL" />
+                  <div className="app-form-group">
+                    <input
+                      className="app-form-control"
+                      type="email"
+                      id="user_email"
+                      name="from_email"
+                      placeholder="EMAIL"
+                    />
                   </div>
-                  <div class="app-form-group message">
-                    <input class="app-form-control" placeholder="MESSAGE" />
+                  <div className="app-form-group message">
+                    <textarea
+                      className="app-form-control"
+                      id="message"
+                      name="message"
+                      placeholder="MESSAGE"
+                    ></textarea>
                   </div>
-                  <div class="app-form-group buttons">
-                    <button class="app-form-button">SUBMIT</button>
+                  <div className="app-form-group buttons">
+                    <button className="app-form-button" type="submit">
+                      SUBMIT
+                    </button>
                   </div>
                 </div>
-              </div>
+              </form>
             </div>
           </div>
         </div>
