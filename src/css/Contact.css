@@ -304,27 +304,34 @@ input {
 
 .success-popup {
   position: fixed;
-  top: 0;
-  right: 0;
+  top: 50%;
+  right: -300px;
   width: max-content;
-  height: 100px;
+  height: 70px;
   background-color: #2d2e32;
   color: white;
-  border: #2d2e32 solid 2px;
   padding: 20px;
   border-radius: 6px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.485);
   z-index: 9999;
   overflow: hidden;
-  transform: translateY(-100%);
-  animation: slideIn 0.5s ease-out forwards;
+  transform: translateY(-50%);
+  animation: slideIn 0.5s ease-out forwards, slideOut 0.5s ease-in forwards 2.5s; 
 }
 
 @keyframes slideIn {
   to {
-    transform: translateY(0);
+    right: 0;
   }
 }
+
+@keyframes slideOut {
+  to {
+    right: -300px; 
+  }
+}
+
+
 
 @media (max-width: 800px) {
   .contact-icons {
