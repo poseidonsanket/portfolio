@@ -1,9 +1,11 @@
-import React, { useRef } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import "../css/Contact.css";
 import emailjs from "@emailjs/browser";
+import contact from "../img/contact.gif";
 
 const Contact = () => {
   const form = useRef();
+  const [showPopup, setShowPopup] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -20,7 +22,22 @@ const Contact = () => {
           console.log("FAILED...", error.text);
         }
       );
+
+    setShowPopup(true);
+
+    form.current.reset();
   };
+  useEffect(() => {
+    let timeout;
+
+    if (showPopup) {
+      timeout = setTimeout(() => {
+        setShowPopup(false);
+      }, 3000);
+    }
+
+    return () => clearTimeout(timeout);
+  }, [showPopup]);
   return (
     <div id="section5">
       <div className="contact-heading">
@@ -83,6 +100,9 @@ const Contact = () => {
         </div>
       </div>
       <div className="contact-container">
+        <div className="contact-img">
+          <img src={contact}/>
+        </div>
         <div class="container">
           <div class="screen">
             <div class="screen-header">
@@ -116,6 +136,7 @@ const Contact = () => {
                       id="user_name"
                       name="from_name"
                       placeholder="NAME"
+                      required
                     />
                   </div>
                   <div className="app-form-group">
@@ -125,6 +146,7 @@ const Contact = () => {
                       id="user_email"
                       name="from_email"
                       placeholder="EMAIL"
+                      required
                     />
                   </div>
                   <div className="app-form-group message">
@@ -133,6 +155,7 @@ const Contact = () => {
                       id="message"
                       name="message"
                       placeholder="MESSAGE"
+                      required
                     ></textarea>
                   </div>
                   <div className="app-form-group buttons">
@@ -146,6 +169,9 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      {showPopup && (
+        <div className="success-popup">Thanks For Reaching Out!</div>
+      )}
     </div>
   );
 };

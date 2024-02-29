@@ -209,6 +209,7 @@ input {
 .contact-container {
   display: flex;
   justify-content: center;
+  gap: 7rem;
   align-items: center;
 }
 
@@ -301,6 +302,30 @@ input {
   margin: 0 5px;
 }
 
+.success-popup {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: max-content;
+  height: 100px;
+  background-color: #2d2e32;
+  color: white;
+  border: #2d2e32 solid 2px;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.485);
+  z-index: 9999;
+  overflow: hidden;
+  transform: translateY(-100%);
+  animation: slideIn 0.5s ease-out forwards;
+}
+
+@keyframes slideIn {
+  to {
+    transform: translateY(0);
+  }
+}
+
 @media (max-width: 800px) {
   .contact-icons {
     display: flex;
@@ -308,6 +333,10 @@ input {
     justify-content: center;
     align-items: center;
     gap: 2rem;
+  }
+
+  .contact-img {
+    display: none;
   }
 
   .contact-icons-1 {
@@ -363,5 +392,42 @@ input {
 
   .screen-body-item {
     padding: 0;
+  }
+}
+
+@media (max-width: 1300px) {
+  .contact-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .contact-img {
+    display: none;
+  }
+
+  .contact-icons-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contact-icons-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contact__info h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-heading-2 {
+    font-size: 1.5rem;
+    color: #2d2e32;
   }
 }
