@@ -304,7 +304,7 @@ input {
 
 .success-popup {
   position: fixed;
-  top: 35%;
+  top: 0%;
   right: -300px;
   width: max-content;
   height: 70px;
