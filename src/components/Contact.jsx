@@ -120,7 +120,7 @@ const Contact = () => {
             <div class="screen-body">
               <div class="screen-body-item left">
                 <div class="app-title">
-                  <span>CONTACT</span>
+                  <span>GET IN TOUCH</span>
                 </div>
               </div>
               <form
@@ -160,7 +160,7 @@ const Contact = () => {
                   </div>
                   <div className="app-form-group buttons">
                     <button className="app-form-button" type="submit">
-                      SUBMIT
+                      SEND
                     </button>
                   </div>
                 </div>
