@@ -66,8 +66,9 @@ nav .hamburger-menu {
   .off-screen-menu {
     background-color: #fff;
     display: flex;
+    flex-direction: column;
     height: 100vh;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     position: absolute;
     top: 0;
     transition: all 0.3s ease-in-out;
@@ -76,15 +77,19 @@ nav .hamburger-menu {
     font-size: 2rem;
   }
 
+
   .off-screen-menu ul {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 40px;
   }
 
   .cross {
-    margin-right: 20px;
-    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 2rem;
     cursor: pointer;
   }
 

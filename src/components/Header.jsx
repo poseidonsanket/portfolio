@@ -93,73 +93,6 @@ const Header = () => {
       <div
         className={`off-screen-menu ${openMenu ? "open-menu" : "close-menu"}`}
       >
-        <ul className="off-screen-list">
-          <li>
-            <Link
-              activeClass="active"
-              to="section1"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              onClick={closeMenu}
-            >
-              <FaHome style={{ paddingTop: "6px" }} /> Home
-            </Link>
-          </li>
-          <li>
-            <Link
-              activeClass="active"
-              to="section2"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              onClick={closeMenu}
-            >
-              <CgProfile style={{ paddingTop: "7px" }} /> About
-            </Link>
-          </li>
-          <li>
-            <Link
-              activeClass="active"
-              to="section3"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              onClick={closeMenu}
-            >
-              Experience
-            </Link>
-          </li>
-          <li>
-            <Link
-              activeClass="active"
-              to="section4"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              onClick={closeMenu}
-            >
-              Projects
-            </Link>
-          </li>
-          <li>
-            <Link
-              activeClass="active"
-              to="section5"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              onClick={closeMenu}
-            >
-              Contact
-            </Link>
-          </li>
-        </ul>
         <div className="cross" onClick={closeMenu}>
           <svg
             className="cross"
@@ -177,6 +110,75 @@ const Header = () => {
             <path d="M18 6l-12 12"></path>
             <path d="M6 6l12 12"></path>
           </svg>
+        </div>
+        <div className="mob-list">
+          <ul className="off-screen-list">
+            <li>
+              <Link
+                activeClass="active"
+                to="section1"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                onClick={closeMenu}
+              >
+                <FaHome style={{ paddingTop: "6px" }} /> Home
+              </Link>
+            </li>
+            <li>
+              <Link
+                activeClass="active"
+                to="section2"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                onClick={closeMenu}
+              >
+                <CgProfile style={{ paddingTop: "7px" }} /> About
+              </Link>
+            </li>
+            <li>
+              <Link
+                activeClass="active"
+                to="section3"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                onClick={closeMenu}
+              >
+                Experience
+              </Link>
+            </li>
+            <li>
+              <Link
+                activeClass="active"
+                to="section4"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                onClick={closeMenu}
+              >
+                Projects
+              </Link>
+            </li>
+            <li>
+              <Link
+                activeClass="active"
+                to="section5"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                onClick={closeMenu}
+              >
+                Contact
+              </Link>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
