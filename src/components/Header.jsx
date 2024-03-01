@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "../css/Header.css";
 import { Link, animateScroll as scroll } from "react-scroll";
+import { FaHome } from "react-icons/fa";
+import { CgProfile } from "react-icons/cg";
 
 const Header = () => {
   const [openMenu, setOpenMenu] = useState(null);
@@ -102,7 +104,7 @@ const Header = () => {
               duration={500}
               onClick={closeMenu}
             >
-              Home
+              <FaHome style={{ paddingTop: "6px" }} /> Home
             </Link>
           </li>
           <li>
@@ -115,7 +117,7 @@ const Header = () => {
               duration={500}
               onClick={closeMenu}
             >
-              About
+              <CgProfile style={{ paddingTop: "7px" }} /> About
             </Link>
           </li>
           <li>
