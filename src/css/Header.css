@@ -59,6 +59,9 @@ nav .hamburger-menu {
   list-style: none;
 }
 
+.moblist-icons:hover {
+  text-decoration: inherit;
+}
 @media (max-width: 800px) {
   nav .header-list {
     display: none;
@@ -68,7 +71,6 @@ nav .hamburger-menu {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    /* justify-content: space-between; */
     position: absolute;
     top: 0;
     transition: all 0.3s ease-in-out;

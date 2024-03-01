@@ -2,7 +2,10 @@ import React, { useState } from "react";
 import "../css/Header.css";
 import { Link, animateScroll as scroll } from "react-scroll";
 import { FaHome } from "react-icons/fa";
-import { CgProfile } from "react-icons/cg";
+import { FaUser } from "react-icons/fa";
+import { BsFillSuitcaseLgFill } from "react-icons/bs";
+import { FaWpforms } from "react-icons/fa6";
+import { VscFileCode } from "react-icons/vsc";
 
 const Header = () => {
   const [openMenu, setOpenMenu] = useState(null);
@@ -136,7 +139,7 @@ const Header = () => {
                 duration={500}
                 onClick={closeMenu}
               >
-                <CgProfile style={{ paddingTop: "7px" }} /> About
+                <FaUser style={{ paddingTop: "6px" }} /> About
               </Link>
             </li>
             <li>
@@ -149,6 +152,7 @@ const Header = () => {
                 duration={500}
                 onClick={closeMenu}
               >
+                <BsFillSuitcaseLgFill style={{ paddingTop: "6px" }} />{" "}
                 Experience
               </Link>
             </li>
@@ -162,7 +166,7 @@ const Header = () => {
                 duration={500}
                 onClick={closeMenu}
               >
-                Projects
+                <VscFileCode style={{ paddingTop: "6px" }} /> Projects
               </Link>
             </li>
             <li>
@@ -175,7 +179,7 @@ const Header = () => {
                 duration={500}
                 onClick={closeMenu}
               >
-                Contact
+                <FaWpforms style={{ paddingTop: "6px" }} /> Contact
               </Link>
             </li>
           </ul>
