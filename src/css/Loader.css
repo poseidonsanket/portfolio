@@ -9,11 +9,11 @@
   width: 100px;
   aspect-ratio: 1;
   border: 10px solid #0000;
-  background: radial-gradient(farthest-side, #2d2e32 98%, #fff) 0 0/20px 20px,
-    radial-gradient(farthest-side, #2d2e32 98%, #fff) 100% 0/20px 20px,
-    radial-gradient(farthest-side, #2d2e32 98%, #fff) 100% 100%/20px 20px,
-    radial-gradient(farthest-side, #2d2e32 98%, #fff) 0 100%/20px 20px,
-    linear-gradient(#2d2e32 0 0) center/40px 40px, #fff; 
+  background: radial-gradient(farthest-side, #2d2e32 98%, #fff) 0 0/40px 40px,
+    radial-gradient(farthest-side, #2d2e32 98%, #fff) 100% 0/40px 40px,
+    radial-gradient(farthest-side, #2d2e32 98%, #fff) 100% 100%/40px 40px,
+    radial-gradient(farthest-side, #2d2e32 98%, #fff) 0 100%/40px 40px,
+    linear-gradient(#2d2e32 0 0) center/60px 60px, #fff; 
   background-repeat: no-repeat;
   filter: blur(4px) contrast(10);
   animation: b2 0.8s infinite;
