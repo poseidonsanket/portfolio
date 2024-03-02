@@ -8,6 +8,7 @@
 .blob-2 {
   width: 100px;
   aspect-ratio: 1;
+  border: 10px solid #0000;
   background: radial-gradient(farthest-side, #2d2e32 98%, #fff) 0 0/20px 20px,
     radial-gradient(farthest-side, #2d2e32 98%, #fff) 100% 0/20px 20px,
     radial-gradient(farthest-side, #2d2e32 98%, #fff) 100% 100%/20px 20px,
