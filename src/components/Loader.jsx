@@ -4,7 +4,7 @@ import "../css/Loader.css";
 const Loader = () => {
   return (
     <div class="loader-body">
-      <span class="loader"></span>
+      <div class="blob-2"></div>
     </div>
   );
 };
