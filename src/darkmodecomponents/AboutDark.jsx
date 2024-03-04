@@ -15,7 +15,7 @@ const AboutDark = () => {
             <p className="about-main-dark">
               Hey there this is Sanket Dadali 👋 <br /> I am currently pursuing
               my B.E from AISSMS College of Engineering Pune. <br />I am
-              currently learning MERN Stack Development.
+              currently learning MERN Stack Development.<br/>I also Love to solve DSA Problems in C++.
             </p>
             <div className="about-logos-main">
               <div className="about-platform-dark"
