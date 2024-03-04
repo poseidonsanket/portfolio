@@ -36,11 +36,16 @@ const Experience = () => {
               </div>
             </div>
             <div className="experience-card-1-s-2">
-              Used HTML,CSS,Javascript to create good quality FrontEnd for a
-              website.Used Django framework to develop backend for
-              websites.Gained Advance Knowlege About Domanin name and
-              Hosting.Learned about Cloud Hosting,VPS Hosting,Dedicated
-              Hosting,WordPress Hosting
+              Configured and managed domain name hosting for web applications.
+              Contributed to WordPress development tasks, implementing new
+              features and optimizations. Engaged in design and development
+              activities using the Django web framework. Collaborated with
+              cross-functional teams in daily stand-ups and code reviews.
+              Identified and resolved technical issues to ensure continuous
+              application functionality. Conducted thorough testing and
+              debugging procedures for high-quality, reliable code. Demonstrated
+              a commitment to ongoing learning and quick adaptation to new
+              technologies.
             </div>
           </div>
         </div>
@@ -66,9 +71,12 @@ const Experience = () => {
                 </div>
               </div>
               <div className="experience-card-1-s-2">
-                Contributed and Published 5 Articles on Database Topics like
-                PostgreSQL And MariaDB.OverAll Accumulated 300+ views on the
-                Articles.
+                Authored insightful articles on PostgreSQL and MariaDB,Python.
+                Crafted user-friendly tutorials catering to both beginners and
+                experienced professionals, fostering a deeper understanding of
+                database management and Python programming. Accumulated 1000+
+                views on articles, indicating a strong impact and resonance
+                within the technical community.
               </div>
             </div>
           </div>
