@@ -1,24 +1,19 @@
 import React from "react";
-import "../css/Hero.css";
-import heroImg from "../img/hero.gif";
+import "../css/HeroDark.css";
+import heroImgDark from "../img/hero-dark.gif";
 import { TypeAnimation } from "react-type-animation";
-import { useTheme } from "../context/ThemeContext";
-import HeroDark from "../darkmodecomponents/HeroDark";
 
 const Hero = () => {
-  const { theme } = useTheme();
-  return theme == "dark" ? (
-    <HeroDark />
-  ) : (
+  return (
     <div id="section1">
-      <div className="hero-section-1">
-        <div className="hero-text">
+      <div className="hero-section-1-dark">
+        <div className="hero-text-dark">
           <h1>MERN Full Stack Developer 👋</h1>
-          <p className="sub-text">
+          <p className="sub-text-dark">
             <TypeAnimation
               sequence={[
                 "Hi, I'm Sanket Dadali. A passionate MERN Stack Developer",
-                1000,
+                1000, 
                 "Hi, I'm Sanket Dadali. A passionate Technical Content Writer",
                 1000,
                 "Hi, I'm Sanket Dadali. A passionate Open Source Enthusiat",
@@ -34,7 +29,7 @@ const Hero = () => {
             href="https://drive.google.com/file/d/1x0xnYgnQZwkgUm5ZXM0nFRVHLpnSf2Pd/view?usp=sharing"
             target="_blank"
           >
-            <div className="resume-btn">Click Me For Resume</div>
+            <div className="resume-btn-dark">Click Me For Resume</div>
           </a>
           <div className="hero-socials">
             <a
@@ -48,7 +43,7 @@ const Hero = () => {
                 height="45"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="currentColor"
+                stroke="white"
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -72,7 +67,7 @@ const Hero = () => {
                 height="45"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="currentColor"
+                stroke="white"
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -83,7 +78,7 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <img className="hero-banner" src={heroImg}></img>
+        <img className="hero-banner" src={heroImgDark}></img>
       </div>
     </div>
   );

@@ -1,12 +1,9 @@
 import React, { useRef, useState, useEffect } from "react";
-import "../css/Contact.css";
+import "../css/ContactDark.css";
 import emailjs from "@emailjs/browser";
-import contact from "../img/contact.gif";
-import { useTheme } from "../context/ThemeContext";
-import ContactDark from "../darkmodecomponents/ContactDark";
+import contact from "../img/contact-dark.gif";
 
-const Contact = () => {
-  const { theme } = useTheme();
+const ContactDark = () => {
   const form = useRef();
   const [showPopup, setShowPopup] = useState(false);
 
@@ -41,18 +38,16 @@ const Contact = () => {
 
     return () => clearTimeout(timeout);
   }, [showPopup]);
-  return theme == "dark" ? (
-    <ContactDark />
-  ) : (
+  return (
     <div id="section5">
-      <div className="contact-heading">
+      <div className="contact-heading-dark">
         <h1>Contact</h1>
       </div>
       <div className="contact-s-1">
-        <p className="contact-heading-2">Don't be shy! Hit me up! 👇</p>
+        <p className="contact-heading-2-dark">Don't be shy! Hit me up! 👇</p>
       </div>
       <div className="contact-icons">
-        <div className="contact-icons-1">
+        <div className="contact-icons-1-dark">
           <span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -60,7 +55,7 @@ const Contact = () => {
               height="30"
               viewBox="0 0 24 24"
               fill="none"
-              stroke="#147efb"
+              stroke="#333"
               stroke-width="2"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -73,12 +68,12 @@ const Contact = () => {
               <path d="M20.2 20.2l1.8 1.8"></path>
             </svg>
           </span>
-          <div class="contact__info">
+          <div class="contact__info-dark">
             <h3>Location</h3>
             <p className="contact-p">Pune, Maharshtra</p>
           </div>
         </div>
-        <div className="contact-icons-2">
+        <div className="contact-icons-2-dark">
           <span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -86,7 +81,7 @@ const Contact = () => {
               height="30"
               viewBox="0 0 24 24"
               fill="none"
-              stroke="#147efb"
+              stroke="#333"
               stroke-width="2"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -96,7 +91,7 @@ const Contact = () => {
               <path d="M3 7l9 6l9 -6"></path>
             </svg>
           </span>
-          <div class="contact__info">
+          <div class="contact__info-dark">
             <h3>Mail</h3>
             <a href="mailto:sanketdadali05@gamil.com">
               sanketdadali05@gamil.com
@@ -106,7 +101,7 @@ const Contact = () => {
       </div>
       <div className="contact-container">
         <div className="contact-img">
-          <img src={contact} />
+          <img src={contact}/>
         </div>
         <div class="container">
           <div class="screen">
@@ -181,4 +176,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default ContactDark;

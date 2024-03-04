@@ -8,6 +8,8 @@
 }
 
 .logos {
+    background-color: white;
+    border-radius: 40%;
     cursor: pointer;
 }
 

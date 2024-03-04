@@ -3,8 +3,11 @@ import Footer from "./components/Footer";
 import Body from "./components/Body";
 import { useState } from "react";
 import Loader from "./components/Loader";
+import { useTheme } from "./context/ThemeContext";
+import "./App.css";
 
 const App = () => {
+  const { theme } = useTheme();
   const [isLoading, setIsLoading] = useState(true);
 
   setTimeout(() => {
@@ -13,7 +16,7 @@ const App = () => {
   return isLoading ? (
     <Loader />
   ) : (
-    <div>
+    <div className={theme == "dark" ? "dark-mode-app" : ""}>
       <Header />
       <Body />
       <Footer />

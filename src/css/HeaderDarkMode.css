@@ -1,5 +1,5 @@
-nav {
-  background-color: white;
+.dark-mode {
+  background-color: #333;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -10,24 +10,25 @@ nav {
   right: 0;
 }
 
-.dark-mode-button {
+.dark-mode-button-dark {
   margin: 1rem;
   border-radius: 50%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.55);
-  background-color: #fff;
+  box-shadow: 0 0 10px rgb(247, 244, 244);
+  background-color: #333;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 3rem;
+  color: white;
   height: 3rem;
 }
 
-.header-list {
+.header-list-dark-mode {
   display: flex;
   align-items: center;
   gap: 1.5rem;
   list-style: none;
-  color: #2d2e32;
+  color: #fff;
   font-weight: 600;
   padding-right: 40px;
   cursor: pointer;
@@ -39,8 +40,8 @@ nav {
   scrollbar-width: thin;
 }
 
-.logo {
-  color: #2d2e32;
+.logo-dark {
+  color: #fff;
   cursor: pointer;
   padding-left: 20px;
 }
@@ -49,21 +50,21 @@ li:hover {
   color: rgb(83, 83, 243);
 }
 
-nav .hamburger-menu-main {
+.hamburger-menu-dark {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav .hamburger-menu-main-dark {
   margin-top: -5px;
   cursor: pointer;
   display: none;
 }
 
-.off-screen-menu {
+.off-screen-menu-dark {
   display: none;
-}
-
-.hamburger-menu {
-  color: black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .off-screen-list {
@@ -74,11 +75,11 @@ nav .hamburger-menu-main {
   text-decoration: inherit;
 }
 @media (max-width: 800px) {
-  nav .header-list {
+  nav .header-list-dark-mode {
     display: none;
   }
-  .off-screen-menu {
-    background-color: #fff;
+  .off-screen-menu-dark {
+    background-color: #333;
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -90,32 +91,33 @@ nav .hamburger-menu-main {
     font-size: 2rem;
   }
 
-  .off-screen-menu ul {
+  .off-screen-menu-dark ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: white;
     gap: 40px;
     margin-right: 2rem;
   }
 
-  .cross {
-    color: black;
+  .cross-dark {
     display: flex;
     justify-content: flex-end;
     margin: 2rem;
+    color: white;
     cursor: pointer;
   }
 
-  .close-menu {
+  .close-menu-dark {
     left: -100%;
   }
 
-  .open-menu {
+  .open-menu-dark {
     left: 0;
   }
 
-  nav .hamburger-menu-main {
+  nav .hamburger-menu-main-dark {
     display: flex;
     justify-content: center;
     align-items: center;

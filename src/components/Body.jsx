@@ -6,8 +6,10 @@ import "../css/Body.css";
 import Experience from "./Experience";
 import Projects from "./Projects";
 import Contact from "./Contact";
+import { useTheme } from "../context/ThemeContext";
 
 const Body = () => {
+  const { theme } = useTheme();
   const [showTopBtn, setShowTopBtn] = useState(false);
   useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -25,19 +27,24 @@ const Body = () => {
     });
   };
 
+  const buttonClassName = theme == "dark" ? "top-to-btm-dark" : "top-to-btm";
+  const subbuttonClassName =
+    theme == "dark"
+      ? "icon-position-dark icon-style-dark"
+      : "icon-position icon-style";
   return (
     <div>
       <div>
         <Hero />
         <About />
-        <div className="top-to-btm">
+        <div className={buttonClassName}>
           {showTopBtn && (
-            <FaAngleUp className="icon-position icon-style" onClick={goToTop} />
+            <FaAngleUp className={subbuttonClassName} onClick={goToTop} />
           )}
         </div>
         <Experience />
         <Projects />
-        <Contact/>
+        <Contact />
       </div>
     </div>
   );

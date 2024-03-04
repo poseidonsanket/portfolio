@@ -1,15 +1,10 @@
 import React from "react";
-import "../css/About.css";
-import TechStack from "./TechStack";
-import about from "../img/about-img.gif";
-import { useTheme } from "../context/ThemeContext";
-import AboutDark from "../darkmodecomponents/AboutDark";
+import "../css/AboutDark.css";
+import TechStackDark from "./TechStackDark";
+import about from "../img/about-img-dark.gif";
 
-const About = () => {
-  const { theme } = useTheme();
-  return theme == "dark" ? (
-    <AboutDark />
-  ) : (
+const AboutDark = () => {
+  return (
     <div id="section2">
       <div className="about-main">
         <div className="about-title">
@@ -17,18 +12,13 @@ const About = () => {
         </div>
         <div className="about-info">
           <div>
-            <p className="about-main">
+            <p className="about-main-dark">
               Hey there this is Sanket Dadali 👋 <br /> I am currently pursuing
               my B.E from AISSMS College of Engineering Pune. <br />I am
               currently learning MERN Stack Development.
             </p>
             <div className="about-logos-main">
-              <div
-                style={{
-                  fontSize: "23px",
-                  color: "#2d2e32",
-                  fontWeight: "bold",
-                }}
+              <div className="about-platform-dark"
               >
                 Platform Profiles :{" "}
               </div>
@@ -43,6 +33,7 @@ const About = () => {
                     height="50px"
                     viewBox="0 0 24 24"
                     role="img"
+                    fill="  white"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <title>LeetCode icon</title>
@@ -55,7 +46,7 @@ const About = () => {
                   target="_blank"
                 >
                   <svg
-                    fill="#000000"
+                    fill="white"
                     width="64px"
                     height="64px"
                     viewBox="0 0 24.00 24.00"
@@ -82,7 +73,7 @@ const About = () => {
                   target="_blank"
                 >
                   <svg
-                    fill="#000000"
+                    fill="white"
                     width="50px"
                     height="50px"
                     viewBox="0 0 24 24"
@@ -108,9 +99,9 @@ const About = () => {
           </div>
         </div>
       </div>
-      <TechStack />
+      <TechStackDark />
     </div>
   );
 };
 
-export default About;
+export default AboutDark;

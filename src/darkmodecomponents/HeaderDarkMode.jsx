@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "../css/Header.css";
 import { Link, animateScroll as scroll } from "react-scroll";
 import { FaHome } from "react-icons/fa";
 import { FaUser } from "react-icons/fa";
@@ -10,33 +9,31 @@ import { CiLight } from "react-icons/ci";
 import { MdDarkMode } from "react-icons/md";
 import { useTheme } from "../context/ThemeContext";
 import { IoMenu } from "react-icons/io5";
-import HeaderDarkMode from "../darkmodecomponents/HeaderDarkMode";
+import "../css/HeaderDarkMode.css";
 
 const Header = () => {
-  const [openMenu, setOpenMenu] = useState(null);
+  const [openDarkMenu, setDarkOpenMenu] = useState(null);
 
   const { theme, toggleTheme } = useTheme();
 
-  const toggleMenu = () => {
-    console.log(openMenu);
-    setOpenMenu((openMenu) => true);
+  const toggleDarkMenu = () => {
+    console.log(openDarkMenu);
+    setDarkOpenMenu((openDarkMenu) => true);
   };
   const closeMenu = () => {
-    console.log(openMenu);
-    setOpenMenu((openMenu) => false);
+    console.log(openDarkMenu );
+    setDarkOpenMenu((openDarkMenu) => false);
   };
 
-  return theme == "dark" ? (
-    <HeaderDarkMode />
-  ) : (
+  return (
     <div id="header">
-      <nav>
-        <h3 className="logo">Sanket.dev</h3>
-        <div className="hamburger-menu-main">
-          <div className="hamburger-menu" onClick={toggleMenu}>
+      <nav className="dark-mode">
+        <h3 className="logo-dark">Sanket.dev</h3>
+        <div className="hamburger-menu-main-dark">
+          <div className="hamburger-menu-dark" onClick={toggleDarkMenu}>
             <IoMenu style={{ width: "3.5rem", height: "3.5rem" }} />
           </div>
-          <span className="dark-mode-button" onClick={toggleTheme}>
+          <span className="dark-mode-button-dark" onClick={toggleTheme}>
             {theme === "light" ? (
               <MdDarkMode style={{ fontSize: "2rem" }} />
             ) : (
@@ -45,7 +42,7 @@ const Header = () => {
           </span>
         </div>
 
-        <ul className="header-list">
+        <ul className="header-list-dark-mode">
           <li>
             <Link
               activeClass="active"
@@ -106,7 +103,7 @@ const Header = () => {
               Contact
             </Link>
           </li>
-          <li className="dark-mode-button" onClick={toggleTheme}>
+          <li className="dark-mode-button-dark" onClick={toggleTheme}>
             {theme === "light" ? (
               <MdDarkMode style={{ fontSize: "2rem" }} />
             ) : (
@@ -116,9 +113,9 @@ const Header = () => {
         </ul>
       </nav>
       <div
-        className={`off-screen-menu ${openMenu ? "open-menu" : "close-menu"}`}
+        className={`off-screen-menu-dark ${openDarkMenu ? "open-menu-dark" : "close-menu-dark"}`}
       >
-        <div className="cross" onClick={closeMenu}>
+        <div className="cross-dark" onClick={closeMenu}>
           <svg
             className="cross"
             xmlns="http://www.w3.org/2000/svg"

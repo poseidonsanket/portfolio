@@ -1,0 +1,37 @@
+.tech-heading-dark {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.tech-main {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.tech-accordian-main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.tech-accordian-dark {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: white solid 1px;
+  border-radius: 6px;
+  padding: 10px;
+  margin: 1px;
+  background-color: gainsboro;
+  color: #333;
+}
+
+.tech-accordian-dark:hover {
+  background-color: white;
+}
+
+.tech-accordian-dark span {
+  font-size: 1.5rem;
+}

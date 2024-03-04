@@ -1,29 +1,24 @@
 import React from "react";
-import "../css/Experience.css";
+import "../css/ExperienceDark.css";
 import eliteImg from "../img/elite.jpeg";
 import gfgImg from "../img/gfg.svg";
-import { useTheme } from "../context/ThemeContext";
-import ExperienceDark from "../darkmodecomponents/ExperienceDark";
 
 const Experience = () => {
-  const { theme } = useTheme();
-  return theme == "dark" ? (
-    <ExperienceDark />
-  ) : (
+  return (
     <div id="section3">
-      <h1 className="experience-heading">Experience</h1>
+      <h1 className="experience-heading-dark">Experience</h1>
       <div className="experience-main">
         <div className="experience-section-1">
-          <div className="experience-elite">
+          <div className="experience-elite-dark">
             <img src={eliteImg} />
           </div>
           <div className="experience-card-stepper">
-            <div className="experience-dot"></div>
-            <div className="experience-line"></div>
+            <div className="experience-dot-dark"></div>
+            <div className="experience-line-dark"></div>
           </div>
 
-          <div className="experience-card-1">
-            <div className="experience-card-1-s-1">
+          <div className="experience-card-1-dark">
+            <div className="experience-card-1-s-1-dark">
               <div className="experience-card-1-s-1-1">
                 <h3>Python-Django Intern</h3>
                 <a href="https://www.elitesoftwares.co.in/" target="_blank">
@@ -45,13 +40,13 @@ const Experience = () => {
           </div>
         </div>
         <div className="experience-section-2">
-          <div className="experience-gfg">
+          <div className="experience-gfg-dark">
             <img src={gfgImg} />
           </div>
           <div className="experience-card-stepper">
-            <div className="experience-dot"></div>
+            <div className="experience-dot-dark"></div>
           </div>
-          <div className="experience-card-2">
+          <div className="experience-card-2-dark">
             <div>
               <div className="experience-card-1-s-1">
                 <div className="experience-card-1-s-1-1">
@@ -76,11 +71,11 @@ const Experience = () => {
       </div>
       <div className="mobile-view">
         <div className="mobile-img">
-          <div className="experience-elite">
+          <div className="experience-elite-dark">
             <img src={eliteImg} />
           </div>
         </div>
-        <div className="experience-card-1">
+        <div className="experience-card-1-dark">
           <div className="experience-card-1-s-1">
             <div className="experience-card-1-s-1-1">
               <h3>Python-Django Intern</h3>
@@ -101,11 +96,11 @@ const Experience = () => {
           </div>
         </div>
         <div className="mobile-img">
-          <div className="experience-gfg">
+          <div className="experience-gfg-dark">
             <img src={gfgImg} />
           </div>
         </div>
-        <div className="experience-card-2">
+        <div className="experience-card-2-dark">
           <div>
             <div className="experience-card-1-s-1">
               <div className="experience-card-1-s-1-1">

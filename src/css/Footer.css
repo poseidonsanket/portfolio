@@ -6,6 +6,15 @@
   right: 0;
 }
 
+.footer-dark {
+  background-color: #333;
+  width: 100%;
+  color: #fff;
+  bottom: 0;
+  right: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.235);;
+}
+
 .footer-s1 {
   padding-left: 50px;
   padding-top: 30px;
