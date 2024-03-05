@@ -20,7 +20,7 @@
 .tech-accordian-dark {
   display: flex;
   justify-content: space-between;
-  border-bottom: white solid 1px;
+  border-bottom: #333 solid 1px;
   border-radius: 6px;
   padding: 10px;
   margin: 1px;

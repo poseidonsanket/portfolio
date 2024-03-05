@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/ExperienceDark.css";
-import eliteImg from "../img/elite.jpeg";
+import eliteImg from "../img/elite.png";
 import gfgImg from "../img/gfg.svg";
 
 const Experience = () => {

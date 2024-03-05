@@ -13,7 +13,7 @@ nav {
 .dark-mode-button {
   margin: 1rem;
   border-radius: 50%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.55);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.26);
   background-color: #fff;
   display: flex;
   align-items: center;
@@ -43,10 +43,6 @@ nav {
   color: #2d2e32;
   cursor: pointer;
   padding-left: 20px;
-}
-
-li:hover {
-  color: rgb(83, 83, 243);
 }
 
 nav .hamburger-menu-main {

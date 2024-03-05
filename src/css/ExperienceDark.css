@@ -21,9 +21,10 @@
   border-radius: 50px;
   width: max-content;
   padding: 5px;
-  box-shadow: 4px 3px 20px -2px rgb(230, 226, 226);
+  box-shadow: 4px 3px 20px -2px rgb(0, 0, 0);
   transition: transform 0.3s ease-in-out;
-  background-color: #fff;
+  background-color: #333;
+  border: #fff solid 1px;
 }
 
 .experience-elite-dark img {
@@ -41,7 +42,7 @@
 }
 
 .experience-dot-dark {
-  background-color: #fff;
+  background-color: gainsboro;
   width: 20px;
   height: 20px;
   border-radius: 20px;
@@ -49,12 +50,13 @@
 }
 
 .experience-card-1-dark {
-  box-shadow: 4px 3px 20px -2px rgb(230, 226, 226);
+  box-shadow: 4px 3px 20px -2px rgb(0, 0, 0);
   border-radius: 10px;
   border: #fff solid 1px;
   width: 95rem;
   transition: transform 0.3s ease-in-out;
-  background-color: #fff;
+  background-color: #333;
+  color: #fff
 }
 
 .experience-card-1-s-1-dark {
@@ -65,7 +67,7 @@
 .experience-card-1-s-1-1 {
   padding: 4px 5px 5px 10px;
   font-size: 1.1rem;
-  color: #2d2e32;
+  color: #fff;
 }
 
 .experience-card-1-s-1-1 h3 {
@@ -95,9 +97,9 @@
 }
 
 .experience-line-dark {
-  height: 222px;
+  height: 247px;
   width: 3px;
-  background-color: #fff;
+  background-color: gainsboro;
   position: absolute;
   margin-left: 8px;
 }
@@ -123,9 +125,10 @@
   border-radius: 50px;
   width: max-content;
   padding: 5px;
-  box-shadow: 4px 3px 20px -2px rgb(230, 226, 226);
+  box-shadow: 4px 3px 20px -2px rgb(0, 0, 0);
   transition: transform 0.3s ease-in-out;
-  background-color: #fff;
+  background-color: #333;
+  border: #fff solid 1px;
 }
 
 .experience-gfg-dark img {
@@ -134,12 +137,13 @@
 }
 
 .experience-card-2-dark {
-  box-shadow: 4px 3px 20px -2px rgb(230, 226, 226);
+  box-shadow: 4px 3px 20px -2px rgb(0, 0, 0);
   border-radius: 10px;
   border: #fff solid 1px;
   width: auto;
   transition: transform 0.3s ease-out;
-  background-color: #fff;
+  background-color: #333;
+  color: #fff;
 }
 
 .experience-card-2-dark:hover {
@@ -170,7 +174,7 @@
   height: 5px;
   bottom: 0;
   left: 0;
-  background-color: #2d2e32;
+  background-color: #fff;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
@@ -188,7 +192,7 @@
   height: 5px;
   bottom: 0;
   left: 0;
-  background-color: #2d2e32;
+  background-color: #fff;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
@@ -211,7 +215,7 @@
   height: 5px;
   bottom: 0;
   left: 0;
-  background-color: #2d2e32;
+  background-color: #fff;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }

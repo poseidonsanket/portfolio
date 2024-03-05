@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/Experience.css";
-import eliteImg from "../img/elite.jpeg";
+import eliteImg from "../img/elite.png";
 import gfgImg from "../img/gfg.svg";
 import { useTheme } from "../context/ThemeContext";
 import ExperienceDark from "../darkmodecomponents/ExperienceDark";
