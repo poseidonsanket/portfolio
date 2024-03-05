@@ -19,7 +19,7 @@ const Experience = () => {
 
           <div className="experience-card-1-dark">
             <div className="experience-card-1-s-1-dark">
-              <div className="experience-card-1-s-1-1">
+              <div className="experience-card-1-s-1-1-dark">
                 <h3>Python-Django Intern</h3>
                 <a href="https://www.elitesoftwares.co.in/" target="_blank">
                   <p>Elite Softwares</p>
@@ -54,7 +54,7 @@ const Experience = () => {
           <div className="experience-card-2-dark">
             <div>
               <div className="experience-card-1-s-1">
-                <div className="experience-card-1-s-1-1">
+                <div className="experience-card-1-s-1-1-dark">
                   <h3>Technical Content Writer</h3>
                   <a href="https://www.geeksforgeeks.org/" target="_blank">
                     <p>GeeksForGeeks</p>
@@ -85,7 +85,7 @@ const Experience = () => {
         </div>
         <div className="experience-card-1-dark">
           <div className="experience-card-1-s-1">
-            <div className="experience-card-1-s-1-1">
+            <div className="experience-card-1-s-1-1-dark">
               <h3>Python-Django Intern</h3>
               <a href="https://www.elitesoftwares.co.in/" target="_blank">
                 <p>Elite Softwares</p>
@@ -111,7 +111,7 @@ const Experience = () => {
         <div className="experience-card-2-dark">
           <div>
             <div className="experience-card-1-s-1">
-              <div className="experience-card-1-s-1-1">
+              <div className="experience-card-1-s-1-1-dark">
                 <h3>Technical Content Writer</h3>
                 <a href="https://www.geeksforgeeks.org/" target="_blank">
                   <p>GeeksForGeeks</p>

@@ -64,18 +64,18 @@
   justify-content: space-between;
 }
 
-.experience-card-1-s-1-1 {
+.experience-card-1-s-1-1-dark {
   padding: 4px 5px 5px 10px;
   font-size: 1.1rem;
   color: #fff;
 }
 
-.experience-card-1-s-1-1 h3 {
+.experience-card-1-s-1-1-dark h3 {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-.experience-card-1-s-1-1 p {
+.experience-card-1-s-1-1-dark p {
   margin-top: 0;
   padding-top: 3px;
 }
@@ -250,7 +250,6 @@
     align-items: center;
   }
   .experience-card-1-dark {
-    background-color: #fff;
     width: auto;
     margin: 2rem;
   }
@@ -276,7 +275,6 @@
     align-items: center;
   }
   .experience-card-1-dark {
-    background-color: #fff;
     width: auto;
     margin: 2rem;
   }
