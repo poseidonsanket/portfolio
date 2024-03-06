@@ -1,10 +1,13 @@
 import React from "react";
 import "../css/CoreLanguages.css";
+import { useTheme } from "../context/ThemeContext";
 
 const FrontEnd = () => {
+  const { theme } = useTheme();
+  const logoClass = theme == "dark" ? "logos-dark" : "logos";
   return (
     <div className="main">
-      <div title="HTML5" className="logos">
+      <div title="HTML5" className={logoClass}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           x="0px"
@@ -25,7 +28,7 @@ const FrontEnd = () => {
           ></path>
         </svg>
       </div>
-      <div title="CSS3" className="logos">
+      <div title="CSS3" className={logoClass}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           x="0px"
@@ -46,7 +49,7 @@ const FrontEnd = () => {
           ></path>
         </svg>
       </div>
-      <div title="Javascript" className="logos">
+      <div title="Javascript" className={logoClass}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           x="0px"
@@ -62,7 +65,7 @@ const FrontEnd = () => {
           ></path>
         </svg>
       </div>
-      <div title="Tailwind CSS" className="logos">
+      <div title="Tailwind CSS" className={logoClass}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           x="0px"
@@ -77,7 +80,7 @@ const FrontEnd = () => {
           ></path>
         </svg>
       </div>
-      <div title="BootStrap" className="logos">
+      <div title="BootStrap" className={logoClass}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           x="0px"
@@ -96,7 +99,7 @@ const FrontEnd = () => {
           ></path>
         </svg>
       </div>
-      <div title="React JS" className="logos">
+      <div title="React JS" className={logoClass}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           x="0px"
@@ -125,7 +128,7 @@ const FrontEnd = () => {
           </g>
         </svg>
       </div>
-      <div title="Redux" className="logos">
+      <div title="Redux" className={logoClass}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           x="0px"
@@ -148,7 +151,7 @@ const FrontEnd = () => {
           ></path>
         </svg>
       </div>
-      <div title="Jest" className="logos">
+      <div title="Jest" className={logoClass}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"

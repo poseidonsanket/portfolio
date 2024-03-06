@@ -8,9 +8,28 @@
 }
 
 .logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: white;
-    border-radius: 40%;
+    border-radius: 50%;
     cursor: pointer;
+    width: max-content;
+    height: auto;
+    box-shadow: 0 0 10px #0000006f;
 }
+
+.logos-dark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    border-radius: 50%;
+    cursor: pointer;
+    width: max-content;
+    height: auto;
+    box-shadow: 4px 3px 20px -2px rgb(0, 0, 0);
+}
+
 
 

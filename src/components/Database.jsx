@@ -1,10 +1,13 @@
 import React from "react";
 import "../css/CoreLanguages.css";
+import { useTheme } from "../context/ThemeContext";
 
 const Database = () => {
+  const { theme } = useTheme();
+  const logoClass = theme == "dark" ? "logos-dark" : "logos";
   return (
     <div className="main">
-      <div title="MongoDB" className="logos">
+      <div title="MongoDB" className={logoClass}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           x="0px"
@@ -32,7 +35,7 @@ const Database = () => {
           ></path>
         </svg>
       </div>
-      <div title="MySQL" className="logos">
+      <div title="MySQL" className={logoClass}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           x="0px"
@@ -71,7 +74,7 @@ const Database = () => {
           ></path>
         </svg>
       </div>
-      <div title="PostgreSQl" className="logos">
+      <div title="PostgreSQl" className={logoClass}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           x="0px"

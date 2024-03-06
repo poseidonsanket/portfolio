@@ -1,11 +1,14 @@
 import React from "react";
 import "../css/CoreLanguages.css";
+import { useTheme } from "../context/ThemeContext";
 
 const CoreLanguages = () => {
+  const { theme } = useTheme();
+  const logoClass = theme == "dark" ? "logos-dark" : "logos"
   return (
     <div>
       <div className="main">
-        <div title="C++" className="logos">
+        <div title="C++" className={logoClass}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             x="0px"
@@ -52,7 +55,7 @@ const CoreLanguages = () => {
             ></path>
           </svg>
         </div>
-        <div title="JAVA" className="logos">
+        <div title="JAVA" className={logoClass}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             x="0px"
@@ -93,7 +96,7 @@ const CoreLanguages = () => {
             </g>
           </svg>
         </div>
-        <div title="Python" className="logos">
+        <div title="Python" className={logoClass}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             x="0px"
