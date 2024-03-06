@@ -22,6 +22,7 @@
 
 .hero-text {
   display: flex;
+  text-align: left;
   flex-direction: column;
 }
 
@@ -42,7 +43,6 @@
   color: white;
   cursor: pointer;
   border-radius: 6px;
-  font-family: Google Sans Regular;
   border: #545461 solid 2px;
   font-size: 1.5rem;
   letter-spacing: 1px;
@@ -80,7 +80,7 @@ a {
   .hero-section-1 {
     margin-left: 1rem;
     margin-right: 1rem;
-    margin-top: 6rem;
+    margin-top: 10rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -97,7 +97,7 @@ a {
   }
 
   .hero-section-1 h1 {
-    text-align: justify;
+    text-align: left;
   }
 
   .hero-socials {
@@ -116,7 +116,7 @@ a {
   .hero-section-1 {
     margin-left: 1rem;
     margin-right: 1rem;
-    margin-top: 6rem;
+    margin-top: 10rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -133,7 +133,7 @@ a {
   }
 
   .hero-section-1 h1 {
-    text-align: justify;
+    text-align: left;
   }
 
   .hero-socials {
