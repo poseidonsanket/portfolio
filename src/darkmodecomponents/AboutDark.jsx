@@ -7,7 +7,7 @@ const AboutDark = () => {
   return (
     <div id="section2">
       <div className="about-main">
-        <div className="about-title">
+        <div className="about-title-dark">
           <h2>About Me</h2>
         </div>
         <div className="about-info">

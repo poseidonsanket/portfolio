@@ -4,10 +4,13 @@
 
 .about-title {
   text-align: center;
-  color: #147efb;
   font-size: 1.7rem;
   font-weight: 700;
   margin-bottom: 1rem;
+}
+
+.about-title h2 {
+  color: #2d2e32;
 }
 
 .about-info {
