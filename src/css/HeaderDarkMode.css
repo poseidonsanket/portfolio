@@ -81,7 +81,7 @@ nav .hamburger-menu-main-dark {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    position: absolute;
+    position: fixed;
     top: 0;
     transition: all 0.3s ease-in-out;
     width: 100%;
