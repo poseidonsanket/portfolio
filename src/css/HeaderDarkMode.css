@@ -1,13 +1,15 @@
-.dark-mode {
+nav {
   background-color: #333;
   display: flex;
   align-items: center;
   justify-content: space-between;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
   width: 100%;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   height: auto;
   right: 0;
+  position: fixed;
+  top: 0;
 }
 
 .dark-mode-button-dark {
@@ -117,5 +119,11 @@ nav .hamburger-menu-main-dark {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+}
+
+@media (max-width: 1300px){
+  nav {
+    font-size: 1.15rem;
   }
 }
