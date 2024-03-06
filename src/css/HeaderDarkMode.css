@@ -1,4 +1,4 @@
-nav {
+.dark-mode {
   background-color: #333;
   display: flex;
   align-items: center;
@@ -123,7 +123,7 @@ nav .hamburger-menu-main-dark {
 }
 
 @media (max-width: 1300px){
-  nav {
+  .dark-mode {
     font-size: 1.15rem;
   }
 }
