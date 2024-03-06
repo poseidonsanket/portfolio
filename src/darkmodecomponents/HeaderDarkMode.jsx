@@ -49,7 +49,7 @@ const Header = () => {
               to="section1"
               spy={true}
               smooth={true}
-              offset={-70}
+              offset={-100}
               duration={500}
             >
               Home
@@ -61,7 +61,7 @@ const Header = () => {
               to="section2"
               spy={true}
               smooth={true}
-              offset={-70}
+              offset={-100}
               duration={500}
             >
               About
@@ -73,7 +73,7 @@ const Header = () => {
               to="section3"
               spy={true}
               smooth={true}
-              offset={-70}
+              offset={-100}
               duration={500}
             >
               Experience
@@ -85,7 +85,7 @@ const Header = () => {
               to="section4"
               spy={true}
               smooth={true}
-              offset={-70}
+              offset={-100}
               duration={500}
             >
               Projects
@@ -97,7 +97,7 @@ const Header = () => {
               to="section5"
               spy={true}
               smooth={true}
-              offset={-70}
+              offset={-100}
               duration={500}
             >
               Contact
@@ -141,7 +141,7 @@ const Header = () => {
                 to="section1"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={-100}
                 duration={500}
                 onClick={closeMenu}
               >
@@ -154,7 +154,7 @@ const Header = () => {
                 to="section2"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={-100}
                 duration={500}
                 onClick={closeMenu}
               >
@@ -167,7 +167,7 @@ const Header = () => {
                 to="section3"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={-100}
                 duration={500}
                 onClick={closeMenu}
               >
@@ -181,7 +181,7 @@ const Header = () => {
                 to="section4"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={-100}
                 duration={500}
                 onClick={closeMenu}
               >
@@ -194,7 +194,7 @@ const Header = () => {
                 to="section5"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={-100}
                 duration={500}
                 onClick={closeMenu}
               >
