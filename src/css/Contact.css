@@ -118,6 +118,7 @@ input {
   margin-left: 2rem;
   margin-right: 2rem;
   padding: 10px;
+
 }
 
 .screen {
@@ -212,6 +213,7 @@ input {
   justify-content: center;
   gap: 7rem;
   align-items: center;
+  z-index: 900; 
 }
 
 .app-title:after {
