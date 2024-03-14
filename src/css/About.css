@@ -80,6 +80,10 @@
     margin-right: 1rem;
   }
 
+  .about-main {
+    font-size: 1.3rem;
+  }
+
   .about-img img {
     height: 340px;
     width: 100%;
@@ -107,6 +111,10 @@
   .about-img img {
     height: 340px;
     width: 100%;
+  }
+
+  .about-main {
+    font-size: 1.3rem;
   }
 
   .about-logos-main {

@@ -41,11 +41,6 @@ const Experience = () => {
               features and optimizations. Engaged in design and development
               activities using the Django web framework. Collaborated with
               cross-functional teams in daily stand-ups and code reviews.
-              Identified and resolved technical issues to ensure continuous
-              application functionality. Conducted thorough testing and
-              debugging procedures for high-quality, reliable code. Demonstrated
-              a commitment to ongoing learning and quick adaptation to new
-              technologies.
             </div>
           </div>
         </div>
@@ -107,11 +102,6 @@ const Experience = () => {
             features and optimizations. Engaged in design and development
             activities using the Django web framework. Collaborated with
             cross-functional teams in daily stand-ups and code reviews.
-            Identified and resolved technical issues to ensure continuous
-            application functionality. Conducted thorough testing and debugging
-            procedures for high-quality, reliable code. Demonstrated a
-            commitment to ongoing learning and quick adaptation to new
-            technologies.
           </div>
         </div>
         <div className="mobile-img">
