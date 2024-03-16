@@ -1,0 +1,100 @@
+.card-main {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  padding: 25px;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  margin-left: 20%;
+  margin-right: 20%;
+  display: flex;
+}
+
+.card-s-1 {
+  width: 50%;
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.card-s-2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-heading {
+  text-align: center;
+  margin: 0;
+}
+
+.card-desc {
+  padding-top: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  text-align: justify;
+  margin: 0;
+}
+
+.card-stack {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding-top: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  align-items: center;
+}
+
+.card-stack-1 {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  background-color: #000;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.card-stack-2 {
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+.card-link {
+  padding-top: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.card-link-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.483);
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 10px;
+  width: max-content;
+  cursor: pointer;
+}
+.card-p {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.card-git {
+  width: 1.5rem;
+  height: 1.5rem;
+}

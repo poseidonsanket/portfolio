@@ -1,16 +1,32 @@
 .projects-heading-dark {
-    display: flex;
-    justify-content: center;
-    color: #fff;
-    font-size: 2.5rem;
-    margin: 2rem;
-  }
-  
-  .projects-main-dark {
-    margin: 4rem;
-    display: flex;
-    justify-content: center;
-    color: #fff;
-    height: 20rem;
-  }
-  
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 2.5rem;
+  margin: 2rem;
+}
+
+.projects-main-dark {
+  margin: 4rem;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  height: 20rem;
+}
+
+.projects-filter-div-dark {
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+  width: max-content;
+  height: max-content;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.projects-filter-div-dark.active {
+  background-color: #fff;
+  color: #333;
+}
