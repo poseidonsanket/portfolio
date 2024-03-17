@@ -122,4 +122,14 @@
     margin-top: 2rem;
   }
 
+  .card-stack {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .card-desc {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
 }
