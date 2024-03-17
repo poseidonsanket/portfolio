@@ -103,3 +103,23 @@
 .card-link-1:hover {
   transform: scale(1.2);
 }
+
+@media (max-width: 800px) {
+  .card-main {
+    flex-direction: column;
+    margin: 2rem;
+  }
+
+  .card-s-1 {
+    width: 100%;
+  }
+
+  .card-s-2 {
+    width: 100%;
+  }
+
+  .card-heading {
+    margin-top: 2rem;
+  }
+
+}

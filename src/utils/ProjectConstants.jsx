@@ -73,7 +73,7 @@ const materialUi = (
 const allProjects = [
   {
     title: "NetflixGpt",
-    desc: "NetFlix GPT is a React web application inspired by Netflix, integrating AI-generated movie suggestions using OpenAI's GPT model. It features user authentication with Firebase, dynamic movie data fetching from the TMDB API, and a responsive UI built with Tailwind CSS. Users can sign up, log in, browse a collection of now playing movies, watch trailers, and receive personalized movie recommendations. With features like seamless navigation, form validation, Redux state management, and multi-language support, NetFlix GPT offers an immersive streaming experience tailored to each user's preferences.",
+    desc: "NetFlix GPT is a React web application inspired by Netflix, integrating AI-generated movie suggestions using OpenAI's GPT model. It features user authentication with Firebase, dynamic movie data fetching from the TMDB API, and a responsive UI built with Tailwind CSS. Users can sign up, log in, browse a collection of now playing movies, watch trailers, and receive personalized movie recommendations.",
     img: NetflixGpt,
     techStack: [
       { logo: reactSvg, name: "REACT" },
