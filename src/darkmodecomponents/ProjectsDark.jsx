@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "../css/ProjectsDark.css";
+import allProjects from "../utils/ProjectConstants";
+import ProjectDarkCard from "../darkmodecomponents/ProjectDarkCard";
 
 const ProjectsDark = () => {
   const projectTypes = ["All Projects", "ReactJs", "NextJs", "MERN Stack"];
@@ -23,7 +25,9 @@ const ProjectsDark = () => {
           </div>
         ))}
       </div>
-      {/* <h1 className="projects-main-dark">New projects coming soon.. 🤠</h1> */}
+      {allProjects.map((project) => (
+        <ProjectDarkCard project={project} />
+      ))}
     </div>
   );
 };

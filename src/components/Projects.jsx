@@ -31,7 +31,6 @@ const Projects = () => {
         ))}
       </div>
       {allProjects.map(project => <ProjectCard project={project} />)}
-      {/* <h1 className="projects-main">New projects coming soon.. 🤠</h1> */}
     </div>
   );
 };

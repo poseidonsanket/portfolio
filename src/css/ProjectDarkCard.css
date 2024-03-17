@@ -1,14 +1,16 @@
-.card-main {
+.card-main-dark {
   align-items: center;
   background-color: #fff;
   border-radius: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 10px rgb(0, 0, 0);
   padding: 25px;
   margin-top: 4rem;
   margin-bottom: 4rem;
   margin-left: 20%;
   margin-right: 20%;
   display: flex;
+  background-color: #333;
+  color: white;
 }
 
 .card-s-1 {
@@ -77,13 +79,14 @@
   gap: 2rem;
 }
 
-.card-link-1 {
+.card-link-1-dark {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.483);
-  background-color: #fff;
+  background-color: #333;
+  color: white;
   padding: 10px;
   border-radius: 10px;
   width: max-content;
@@ -100,6 +103,6 @@
   height: 1.5rem;
 }
 
-.card-link-1:hover {
-  transform: scale(1.2);
+.card-link-1-dark:hover {
+    transform: scale(1.2);
 }
