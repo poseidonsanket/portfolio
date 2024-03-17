@@ -41,5 +41,6 @@
 @media (max-width: 800px) {
   .projects-filter {
     flex-wrap: wrap;
+    gap: 1rem;
   }
 }
