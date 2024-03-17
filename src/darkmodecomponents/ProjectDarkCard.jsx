@@ -4,7 +4,6 @@ import { FiGithub } from "react-icons/fi";
 import { TbExternalLink } from "react-icons/tb";
 
 const ProjectDarkCard = ({ project }) => {
-  console.log(project);
   return (
     <div className="card-main-dark">
       <div className="card-s-1">

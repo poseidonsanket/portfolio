@@ -4,10 +4,29 @@ import allProjects from "../utils/ProjectConstants";
 import ProjectDarkCard from "../darkmodecomponents/ProjectDarkCard";
 
 const ProjectsDark = () => {
+  const [filteredProjects, setFilteredProjects] = useState(allProjects);
   const projectTypes = ["All Projects", "ReactJs", "NextJs", "MERN Stack"];
   const [activeDiv, setActiveDiv] = useState(0);
   const handleDivClick = (index) => {
     setActiveDiv(index);
+    if (index == 1) {
+      const filProjects = allProjects.filter(
+        (project) => project.type === "react"
+      );
+      setFilteredProjects(filProjects);
+    } else if (index == 2) {
+      const filProjects = allProjects.filter(
+        (project) => project.type === "next"
+      );
+      setFilteredProjects(filProjects);
+    } else if (index == 3) {
+      const filProjects = allProjects.filter(
+        (project) => project.type === "mern"
+      );
+      setFilteredProjects(filProjects);
+    } else {
+      setFilteredProjects(allProjects);
+    }
   };
   return (
     <div id="section4">
@@ -25,9 +44,13 @@ const ProjectsDark = () => {
           </div>
         ))}
       </div>
-      {allProjects.map((project) => (
-        <ProjectDarkCard project={project} />
-      ))}
+      {filteredProjects.length > 0 ? (
+        filteredProjects.map((project) => (
+          <ProjectDarkCard key={project.title} project={project} />
+        ))
+      ) : (
+        <h1 className="projects-main-dark">New projects coming soon.. 🤠</h1>
+      )}
     </div>
   );
 };

@@ -6,11 +6,30 @@ import ProjectCard from "./ProjectCard";
 import allProjects from "../utils/ProjectConstants";
 
 const Projects = () => {
+  const [filteredProjects, setFilteredProjects] = useState(allProjects);
   const projectTypes = ["All Projects", "ReactJs", "NextJs", "MERN Stack"];
   const [activeDiv, setActiveDiv] = useState(0);
   const { theme } = useTheme();
   const handleDivClick = (index) => {
     setActiveDiv(index);
+    if (index == 1) {
+      const filProjects = allProjects.filter(
+        (project) => project.type === "react"
+      );
+      setFilteredProjects(filProjects);
+    } else if (index == 2) {
+      const filProjects = allProjects.filter(
+        (project) => project.type === "next"
+      );
+      setFilteredProjects(filProjects);
+    } else if (index == 3) {
+      const filProjects = allProjects.filter(
+        (project) => project.type === "mern"
+      );
+      setFilteredProjects(filProjects);
+    } else {
+      setFilteredProjects(allProjects);
+    }
   };
   return theme == "dark" ? (
     <ProjectsDark />
@@ -30,7 +49,13 @@ const Projects = () => {
           </div>
         ))}
       </div>
-      {allProjects.map(project => <ProjectCard project={project} />)}
+      {filteredProjects.length > 0 ? (
+        filteredProjects.map((project) => (
+          <ProjectCard key={project.title} project={project} />
+        ))
+      ) : (
+        <h1 className="projects-main">New projects coming soon.. 🤠</h1>
+      )}
     </div>
   );
 };

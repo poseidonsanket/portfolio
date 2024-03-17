@@ -18,11 +18,9 @@ const Header = () => {
   const { theme, toggleTheme } = useTheme();
 
   const toggleMenu = () => {
-    console.log(openMenu);
     setOpenMenu((openMenu) => true);
   };
   const closeMenu = () => {
-    console.log(openMenu);
     setOpenMenu((openMenu) => false);
   };
 

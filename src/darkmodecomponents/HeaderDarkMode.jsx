@@ -17,11 +17,9 @@ const Header = () => {
   const { theme, toggleTheme } = useTheme();
 
   const toggleDarkMenu = () => {
-    console.log(openDarkMenu);
     setDarkOpenMenu((openDarkMenu) => true);
   };
   const closeMenu = () => {
-    console.log(openDarkMenu );
     setDarkOpenMenu((openDarkMenu) => false);
   };
 
