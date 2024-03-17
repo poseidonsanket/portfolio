@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/ProjectCard.css";
 import { FiGithub } from "react-icons/fi";
-import { RiExternalLinkLine } from "react-icons/ri";
+import { TbExternalLink } from "react-icons/tb";
 
 const ProjectCard = ({ project }) => {
   console.log(project);
@@ -33,7 +33,7 @@ const ProjectCard = ({ project }) => {
           <a href={project.liveLink} target="__blank" rel="noopener noreferrer">
             <div className="card-link-1">
               <p className="card-p">Live Demo</p>
-              <RiExternalLinkLine className="card-git" />
+              <TbExternalLink className="card-git" />
             </div>
           </a>
         </div>
