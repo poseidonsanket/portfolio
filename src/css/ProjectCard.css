@@ -131,5 +131,33 @@
     padding-left: 0;
     padding-right: 0;
   }
+}
 
+@media (max-width: 1300px) {
+  .card-main {
+    flex-direction: column;
+    margin: 2rem;
+  }
+
+  .card-s-1 {
+    width: 100%;
+  }
+
+  .card-s-2 {
+    width: 100%;
+  }
+
+  .card-heading {
+    margin-top: 2rem;
+  }
+
+  .card-stack {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .card-desc {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }

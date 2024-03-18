@@ -124,5 +124,23 @@
   .card-heading {
     margin-top: 2rem;
   }
+}
 
+@media (max-width: 1300px) {
+  .card-main-dark {
+    flex-direction: column;
+    margin: 2rem;
+  }
+
+  .card-s-1 {
+    width: 100%;
+  }
+
+  .card-s-2 {
+    width: 100%;
+  }
+
+  .card-heading {
+    margin-top: 2rem;
+  }
 }
