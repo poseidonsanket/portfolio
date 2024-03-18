@@ -44,3 +44,10 @@
     gap: 1rem;
   }
 }
+
+@media (max-width: 1300px) {
+  .projects-filter {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+}
