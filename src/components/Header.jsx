@@ -13,6 +13,12 @@ import { IoMenu } from "react-icons/io5";
 import HeaderDarkMode from "../darkmodecomponents/HeaderDarkMode";
 
 const Header = () => {
+  const goToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
   const [openMenu, setOpenMenu] = useState(null);
 
   const { theme, toggleTheme } = useTheme();
@@ -24,13 +30,14 @@ const Header = () => {
     setOpenMenu((openMenu) => false);
   };
 
-
   return theme == "dark" ? (
     <HeaderDarkMode />
   ) : (
     <div id="header">
       <nav>
-        <h3 className="logo">Sanket.dev</h3>
+        <h3 className="logo" onClick={goToTop}>
+          Sanket.dev
+        </h3>
         <div className="hamburger-menu-main">
           <div className="hamburger-menu" onClick={toggleMenu}>
             <IoMenu style={{ width: "3.5rem", height: "3.5rem" }} />
