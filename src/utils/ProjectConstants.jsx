@@ -1,6 +1,7 @@
 import NetflixGpt from "../img/NetflixGpt.png";
 import FitLifeHub from "../img/FitLifeHub.png";
 import MeetingsApp from "../img/MeetingsApp.png";
+import Youtube from "../img/youtubeclone.png";
 
 const reactSvg = (
   <img
@@ -180,7 +181,7 @@ const allProjects = [
   },
   {
     title: "FitLifeHub",
-    desc: "FitLifeHub is a comprehensive fitness website designed and developed using React.js, Material UI,Tailwind CSS and various React packages, ensuring a dynamic and user-friendly experience. The integration of Rapid API allows seamless retrieval and display of preferred exercises.uture enhancements could include an Exercise BMI Calculator for tracking fitness progress, Pagination for efficient management of fitness resources.",
+    desc: "FitLifeHub is a comprehensive fitness website designed and developed using React.js, Material UI,Tailwind CSS and various React packages, ensuring a dynamic and user-friendly experience. The integration of Rapid API allows seamless retrieval and display of preferred exercises.Furture enhancements could include an Exercise BMI Calculator for tracking fitness progress, Pagination for efficient management of fitness resources.",
     img: FitLifeHub,
     techStack: [
       { logo: reactSvg, name: "REACT" },
@@ -214,8 +215,23 @@ const allProjects = [
     gitLink: "https://github.com/poseidonsanket/meetings-app.git",
     liveLink: "https://meetings-app-tau.vercel.app/",
   },
+  {
+    title: "ReactTube",
+    desc: "ReactTube is a cutting-edge YouTube clone crafted with React.js and Tailwind CSS, offering a sleek and intuitive interface for users to explore and engage with video content. With features like infinite scrolling, live chat powered by API pooling, and category-wise video filtering, ReactTube ensures a seamless browsing experience tailored to users' preferences. Its advanced search functionality, enhanced by debouncing, enables users to discover relevant videos effortlessly. Additionally, ReactTube's N-level nesting of comments fosters vibrant discussions and community interaction within its dynamic comments sections.",
+    img: Youtube,
+    techStack: [
+      { logo: reactSvg, name: "REACTJS" },
+      { logo: tailwindSvg, name: "TAILWINDCSS" },
+      {
+        logo: reduxSvg,
+        name: "REDUX",
+      },
+    ],
+    type: "react",
+    gitLink: "https://github.com/poseidonsanket/youtube-clone.git",
+    liveLink: "https://youtube-clone-three-ruby.vercel.app/",
+  },
 ];
 
 export default allProjects;
 
-// FitLifeHub is a comprehensive fitness website designed and developed using React.js, Material UI,Tailwind CSS and various React packages, ensuring a dynamic and user-friendly experience. The integration of Rapid API allows seamless retrieval and display of preferred exercises, diet plans, muscle group information, and exercise benefits, thereby enhancing user engagement and accessibility to fitness resources. Future enhancements could include an Exercise BMI Calculator for tracking fitness progress, Pagination for efficient management of fitness resources, and a Fitness Tracker feature for logging workouts and setting reminders. With these additions, FitLifeHub aims to provide users with a comprehensive platform for achieving their fitness goals effectively and efficiently.
