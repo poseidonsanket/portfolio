@@ -177,7 +177,7 @@ const allProjects = [
     ],
     type: "react",
     gitLink: "https://github.com/poseidonsanket/Netflix-Gpt.git",
-    liveLink: "https://netflix-gpt-blue-ten.vercel.app/",
+    liveLink: "https://netflix-gpt-two-wheat.vercel.app/",
   },
   {
     title: "FitLifeHub",
