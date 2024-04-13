@@ -26,7 +26,7 @@ const Hero = () => {
             />
           </p>
           <a
-            href="https://drive.google.com/file/d/1x0xnYgnQZwkgUm5ZXM0nFRVHLpnSf2Pd/view?usp=sharing"
+            href="https://drive.google.com/file/d/1IhnTu-ZfwU6rR7gpV9diR5gVtMDt_Id2/view?usp=drive_link"
             target="_blank"
           >
             <div className="resume-btn-dark">Click Me For Resume</div>
