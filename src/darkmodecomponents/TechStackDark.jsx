@@ -3,6 +3,7 @@ import CoreLanguages from "../components/CoreLanguages";
 import FrontEnd from "../components/FrontEnd";
 import Database from "../components/Database";
 import "../css/TechStackDark.css";
+import Backend from "../components/Backend";
 
 const TechStack = () => {
   const [frontEnd, setFrontEnd] = useState(false);
@@ -40,7 +41,7 @@ const TechStack = () => {
             <span>Back-End & DevOps</span>
             <span style={{ fontSize: "1.7rem" }}>{backEnd ? "-" : "+"}</span>
           </div>
-          {backEnd && <p style={{color: "white"}}>Still Learning 🥲</p>}
+          {backEnd && <Backend/>}
         </div>
 
         <div>

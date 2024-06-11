@@ -4,7 +4,6 @@ import { useTheme } from "../context/ThemeContext";
 
 const FrontEnd = () => {
   const { theme } = useTheme();
-  console.log(theme);
   const logoClass = theme == "dark" ? "logos-dark" : "logos";
   return (
     <div className="main">

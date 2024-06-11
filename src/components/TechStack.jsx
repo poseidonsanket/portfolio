@@ -3,6 +3,7 @@ import CoreLanguages from "./CoreLanguages";
 import FrontEnd from "./FrontEnd";
 import Database from "./Database";
 import "../css/TechStack.css";
+import Backend from "./Backend";
 
 const TechStack = () => {
   const [frontEnd, setFrontEnd] = useState(false);
@@ -37,7 +38,7 @@ const TechStack = () => {
             <span>Back-End & DevOps</span>
             <span style={{ fontSize: "1.7rem" }}>{backEnd ? "-" : "+"}</span>
           </div>
-          {backEnd && <p>Still Learning 🥲</p>}
+          {backEnd && <Backend/>}
         </div>
 
         <div>
