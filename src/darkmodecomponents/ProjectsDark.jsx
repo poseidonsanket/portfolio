@@ -5,7 +5,7 @@ import ProjectDarkCard from "../darkmodecomponents/ProjectDarkCard";
 
 const ProjectsDark = () => {
   const [filteredProjects, setFilteredProjects] = useState(allProjects);
-  const projectTypes = ["All Projects", "ReactJs", "NextJs", "MERN Stack"];
+  const projectTypes = ["All Projects", "ReactJs", "NextJs", "Full Stack"];
   const [activeDiv, setActiveDiv] = useState(0);
   const handleDivClick = (index) => {
     setActiveDiv(index);
@@ -21,7 +21,7 @@ const ProjectsDark = () => {
       setFilteredProjects(filProjects);
     } else if (index == 3) {
       const filProjects = allProjects.filter(
-        (project) => project.type === "mern"
+        (project) => project.type === "full"
       );
       setFilteredProjects(filProjects);
     } else {

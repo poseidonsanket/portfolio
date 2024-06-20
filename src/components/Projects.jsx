@@ -7,7 +7,7 @@ import allProjects from "../utils/ProjectConstants";
 
 const Projects = () => {
   const [filteredProjects, setFilteredProjects] = useState(allProjects);
-  const projectTypes = ["All Projects", "ReactJs", "NextJs", "MERN Stack"];
+  const projectTypes = ["All Projects", "ReactJs", "NextJs", "Full Stack"];
   const [activeDiv, setActiveDiv] = useState(0);
   const { theme } = useTheme();
   const handleDivClick = (index) => {
@@ -24,7 +24,7 @@ const Projects = () => {
       setFilteredProjects(filProjects);
     } else if (index == 3) {
       const filProjects = allProjects.filter(
-        (project) => project.type === "mern"
+        (project) => project.type === "full"
       );
       setFilteredProjects(filProjects);
     } else {
