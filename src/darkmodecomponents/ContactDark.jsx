@@ -5,7 +5,6 @@ import contact from "../img/contact-dark.gif";
 
 const ContactDark = () => {
   const form = useRef();
-  const [showPopup, setShowPopup] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -23,21 +22,10 @@ const ContactDark = () => {
         }
       );
 
-    setShowPopup(true);
+    toast.success("Thanks for Reaching Out!")
 
     form.current.reset();
   };
-  useEffect(() => {
-    let timeout;
-
-    if (showPopup) {
-      timeout = setTimeout(() => {
-        setShowPopup(false);
-      }, 3000);
-    }
-
-    return () => clearTimeout(timeout);
-  }, [showPopup]);
   return (
     <div id="section5">
       <div className="contact-heading-dark">
@@ -169,9 +157,6 @@ const ContactDark = () => {
           </div>
         </div>
       </div>
-      {showPopup && (
-        <div className="success-popup">Thanks For Reaching Out!</div>
-      )}
     </div>
   );
 };

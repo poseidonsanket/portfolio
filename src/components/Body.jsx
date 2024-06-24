@@ -7,6 +7,7 @@ import Experience from "./Experience";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import { useTheme } from "../context/ThemeContext";
+import { Toaster } from "react-hot-toast";
 
 const Body = () => {
   const { theme } = useTheme();
@@ -42,6 +43,7 @@ const Body = () => {
             <FaAngleUp className={subbuttonClassName} onClick={goToTop} />
           )}
         </div>
+        <Toaster position="top-center"/>
         <Experience />
         <Projects />
         <Contact />

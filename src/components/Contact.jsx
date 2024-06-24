@@ -4,11 +4,11 @@ import emailjs from "@emailjs/browser";
 import contact from "../img/contact.gif";
 import { useTheme } from "../context/ThemeContext";
 import ContactDark from "../darkmodecomponents/ContactDark";
+import toast from "react-hot-toast";
 
 const Contact = () => {
   const { theme } = useTheme();
   const form = useRef();
-  const [showPopup, setShowPopup] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -26,21 +26,10 @@ const Contact = () => {
         }
       );
 
-    setShowPopup(true);
+    toast.success("Thanks for Reaching Out!")
 
     form.current.reset();
   };
-  useEffect(() => {
-    let timeout;
-
-    if (showPopup) {
-      timeout = setTimeout(() => {
-        setShowPopup(false);
-      }, 3000);
-    }
-
-    return () => clearTimeout(timeout);
-  }, [showPopup]);
   return theme == "dark" ? (
     <ContactDark />
   ) : (
@@ -174,9 +163,6 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      {showPopup && (
-        <div className="success-popup">Thanks For Reaching Out!</div>
-      )}
     </div>
   );
 };
