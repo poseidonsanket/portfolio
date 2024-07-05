@@ -3,6 +3,7 @@ import FitLifeHub from "../img/FitLifeHub.png";
 import MeetingsApp from "../img/MeetingsApp.png";
 import Youtube from "../img/youtubeclone.png";
 import Mingle from "../img/mingle.png";
+import ScheduleEase from "../img/ScheduleEase.png";
 
 const reactSvg = (
   <img
@@ -274,6 +275,22 @@ const allProjects = [
     liveLink: "https://netflix-gpt-two-wheat.vercel.app/",
   },
   {
+    title: "ReactTube",
+    desc: "ReactTube is a cutting-edge YouTube clone crafted with React.js and Tailwind CSS, offering a sleek and intuitive interface for users to explore and engage with video content. With features like infinite scrolling, live chat powered by API pooling, and category-wise video filtering, ReactTube ensures a seamless browsing experience tailored to users' preferences. Its advanced search functionality, enhanced by debouncing, enables users to discover relevant videos effortlessly. Additionally, ReactTube's N-level nesting of comments fosters vibrant discussions and community interaction within its dynamic comments sections.",
+    img: Youtube,
+    techStack: [
+      { logo: reactSvg, name: "ReactJs" },
+      { logo: tailwindSvg, name: "Tailwind Css" },
+      {
+        logo: reduxSvg,
+        name: "Redux",
+      },
+    ],
+    type: "react",
+    gitLink: "https://github.com/poseidonsanket/youtube-clone.git",
+    liveLink: "https://youtube-clone-three-ruby.vercel.app/",
+  },
+  {
     title: "FitLifeHub",
     desc: "FitLifeHub is a comprehensive fitness website designed and developed using React.js, Material UI,Tailwind CSS and various React packages, ensuring a dynamic and user-friendly experience. The integration of Rapid API allows seamless retrieval and display of preferred exercises.Furture enhancements could include an Exercise BMI Calculator for tracking fitness progress, Pagination for efficient management of fitness resources.",
     img: FitLifeHub,
@@ -288,6 +305,20 @@ const allProjects = [
     type: "react",
     gitLink: "https://github.com/poseidonsanket/FitnessApp.git",
     liveLink: "https://fitlifehub12.netlify.app/",
+  },
+  {
+    title: "SchedulEase",
+    desc: "Schedulease is a versatile scheduling tool where users can effortlessly organize and manage their meetings. It conveniently displays upcoming and expired meetings with detailed information, ensuring efficient scheduling and planning.",
+    img: ScheduleEase,
+    techStack: [
+      { logo: nextjsSvg, name: "NextJs" },
+      { logo: tailwindSvg, name: "Tailwind Css" },
+      { logo: firebaseSvg, name: "Firebase" },
+      { logo: honoSvg, name: "Kinde Auth" },
+    ],
+    type: "next",
+    gitLink: "https://github.com/poseidonsanket/MeetScheduler.git",
+    liveLink: "https://meet-scheduler-mu.vercel.app/",
   },
   {
     title: "Meetings App",
@@ -305,24 +336,8 @@ const allProjects = [
     liveLink: "https://meetings-app-tau.vercel.app/",
   },
   {
-    title: "ReactTube",
-    desc: "ReactTube is a cutting-edge YouTube clone crafted with React.js and Tailwind CSS, offering a sleek and intuitive interface for users to explore and engage with video content. With features like infinite scrolling, live chat powered by API pooling, and category-wise video filtering, ReactTube ensures a seamless browsing experience tailored to users' preferences. Its advanced search functionality, enhanced by debouncing, enables users to discover relevant videos effortlessly. Additionally, ReactTube's N-level nesting of comments fosters vibrant discussions and community interaction within its dynamic comments sections.",
-    img: Youtube,
-    techStack: [
-      { logo: reactSvg, name: "ReactJs" },
-      { logo: tailwindSvg, name: "Tailwind Css" },
-      {
-        logo: reduxSvg,
-        name: "Redux",
-      },
-    ],
-    type: "react",
-    gitLink: "https://github.com/poseidonsanket/youtube-clone.git",
-    liveLink: "https://youtube-clone-three-ruby.vercel.app/",
-  },
-  {
     title: "Mingle",
-    desc: "Mingle is a dynamic blogging platform where users can sign in to publish their own blogs and read posts from others. Leveraging modern technologies, Mingle is built with React for a responsive user interface and styled with Tailwind CSS for sleek design. The backend is powered by Hono on Cloudflare, ensuring fast and scalable serverless functions, with data managed through Prisma ORM and PostgreSQL for robust and efficient database operations. This combination of technologies provides users with a seamless and engaging blogging experience.",
+    desc: "Mingle is a dynamic blogging platform where users can sign in to publish their own blogs and read posts from others. Leveraging modern technologies, Mingle is built with React for a responsive user interface and styled with Tailwind CSS for sleek design. The backend is powered by Hono on Cloudflare, ensuring fast and scalable serverless functions, with data managed through Prisma ORM and PostgreSQL for robust and efficient database operations.",
     img: Mingle,
     techStack: [
       { logo: reactSvg, name: "ReactJs" },
