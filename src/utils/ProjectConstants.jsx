@@ -4,6 +4,7 @@ import MeetingsApp from "../img/MeetingsApp.png";
 import Youtube from "../img/youtubeclone.png";
 import Mingle from "../img/mingle.png";
 import ScheduleEase from "../img/ScheduleEase.png";
+import DevFinder from "../img/DevFinder.png";
 
 const reactSvg = (
   <img
@@ -305,6 +306,21 @@ const allProjects = [
     type: "react",
     gitLink: "https://github.com/poseidonsanket/FitnessApp.git",
     liveLink: "https://fitlifehub12.netlify.app/",
+  },
+  {
+    title: "DevFinder",
+    desc: "DevFinder is a platform where GitHub projects are organized as rooms, allowing users to join and interact with each other through video calls. This setup facilitates real-time collaboration and communication among developers.",
+    img: DevFinder,
+    techStack: [
+      { logo: nextjsSvg, name: "NextJs" },
+      { logo: tailwindSvg, name: "Tailwind Css" },
+      { logo: honoSvg, name: "Next Auth" },
+      { logo: honoSvg, name: "Drizzle ORM" },
+      { logo: postgreSQLSvg, name: "PostgreSQL" },
+    ],
+    type: "next",
+    gitLink: "https://github.com/poseidonsanket/Dev-Finder.git",
+    liveLink: "https://dev-finder-six-blond.vercel.app/",
   },
   {
     title: "SchedulEase",
