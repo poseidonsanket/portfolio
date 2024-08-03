@@ -5,6 +5,7 @@ import Youtube from "../img/youtubeclone.png";
 import Mingle from "../img/mingle.png";
 import ScheduleEase from "../img/ScheduleEase.png";
 import DevFinder from "../img/DevFinder.png";
+import CareerPortal from "../img/CareerPortal.png";
 
 const reactSvg = (
   <img
@@ -230,6 +231,50 @@ const postgreSQLSvg = (
   </svg>
 );
 
+const supabaseSvg = (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    x="0px"
+    y="0px"
+    width="14"
+    height="14"
+    viewBox="0 0 48 48"
+  >
+    <g id="Ð¡Ð»Ð¾Ð¹_1">
+      <linearGradient
+        id="SVGID_1__sH0rW2TvYdr9_gr1"
+        x1="14.073"
+        x2="14.073"
+        y1="8.468"
+        y2="36.033"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop offset="0" stop-color="#7dffce"></stop>
+        <stop offset="1" stop-color="#50c08d"></stop>
+      </linearGradient>
+      <path
+        fill="url(#SVGID_1__sH0rW2TvYdr9_gr1)"
+        d="M24.2,30V6.3c0-1.8-2.3-2.6-3.4-1.2L4.5,25.9c-1.3,1.7-0.1,4.1,2,4.1H24.2z"
+      ></path>
+      <linearGradient
+        id="SVGID_00000140728474547789280440000018204366184369975479__sH0rW2TvYdr9_gr2"
+        x1="34.249"
+        x2="34.249"
+        y1="48.404"
+        y2="19.425"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop offset="0" stop-color="#7dffce"></stop>
+        <stop offset="1" stop-color="#50c08d"></stop>
+      </linearGradient>
+      <path
+        fill="url(#SVGID_00000140728474547789280440000018204366184369975479__sH0rW2TvYdr9_gr2)"
+        d="M24,18.4v23.7c0,1.8,2.4,2.6,3.5,1.2 l16.4-20.7c1.3-1.7,0.1-4.1-2.1-4.1H24z"
+      ></path>
+    </g>
+  </svg>
+);
+
 const honoSvg = (
   <svg
     width="14"
@@ -306,6 +351,20 @@ const allProjects = [
     type: "react",
     gitLink: "https://github.com/poseidonsanket/FitnessApp.git",
     liveLink: "https://fitlifehub12.netlify.app/",
+  },
+  {
+    title: "Career Portal",
+    desc: "Career Portal is a platform designed to help users discover job opportunities, internships, and interview experiences. It offers sections for browsing and applying to the latest job and internship openings, reading candidate interview experiences. Users can also contribute their own experiences and insights to help others.",
+    img: CareerPortal,
+    techStack: [
+      { logo: nextjsSvg, name: "NextJs" },
+      { logo: tailwindSvg, name: "Tailwind Css" },
+      { logo: firebaseSvg, name: "Firebase" },
+      { logo: supabaseSvg, name: "Supabase" },
+    ],
+    type: "next",
+    gitLink: "https://github.com/poseidonsanket/CareerPortal.git",
+    liveLink: "https://career-portal-eight.vercel.app/",
   },
   {
     title: "DevFinder",
