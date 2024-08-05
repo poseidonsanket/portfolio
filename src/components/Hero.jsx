@@ -31,7 +31,7 @@ const Hero = () => {
             />
           </p>
           <a
-            href="https://drive.google.com/file/d/1IhnTu-ZfwU6rR7gpV9diR5gVtMDt_Id2/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1zhKIhLotIovMfQuxN6riwhj964xnG0fi/view?usp=sharing"
             target="_blank"
           >
             <div className="resume-btn">Click Me For Resume</div>

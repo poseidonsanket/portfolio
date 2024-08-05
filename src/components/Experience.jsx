@@ -31,7 +31,7 @@ const Experience = () => {
                 </a>
               </div>
               <div className="experience-card-1-s-1-2">
-                <p>Oct 2022 – Jan 2023</p>
+                <p>Nov 2023 – Jan 2024</p>
                 <p>Pune, Maharashtra</p>
               </div>
             </div>
@@ -61,7 +61,7 @@ const Experience = () => {
                   </a>
                 </div>
                 <div className="experience-card-1-s-1-2">
-                  <p>Jan 2024 – Present</p>
+                  <p>Feb 2024 – April 2024</p>
                   <p>Remote(Freelance)</p>
                 </div>
               </div>
@@ -69,7 +69,7 @@ const Experience = () => {
                 Authored insightful articles on PostgreSQL and MariaDB,Python.
                 Crafted user-friendly tutorials catering to both beginners and
                 experienced professionals, fostering a deeper understanding of
-                database management and Python programming. Accumulated 1000+
+                database management and Python programming. Accumulated 20000+
                 views on articles, indicating a strong impact and resonance
                 within the technical community.
               </div>
